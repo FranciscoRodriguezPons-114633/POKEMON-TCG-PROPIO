@@ -1,0 +1,47 @@
+<div class="auth-container">
+  <div class="decor decor-info"></div>
+  <div class="decor decor-accent"></div>
+
+  <div class="auth-card glass-card fade-in">
+    <div class="brand">
+      <div class="logo-tile">
+        <span class="mark"></span>
+      </div>
+      <h1>Pokemon TCG Arena</h1>
+      <p>Entrena, colecciona, combate</p>
+    </div>
+
+    <div class="tabs">
+      <button type="button" [class.active]="activeTab === 'login'" (click)="setTab('login')">Iniciar sesion</button>
+      <button type="button" [class.active]="activeTab === 'register'" (click)="setTab('register')">Registrarse</button>
+    </div>
+
+    <form [formGroup]="authForm" (ngSubmit)="onSubmit()" class="auth-form">
+      <label>
+        <span>Entrenador</span>
+        <input type="text" formControlName="username" placeholder="Tu nombre" autocomplete="username">
+      </label>
+
+      <label *ngIf="activeTab === 'register'">
+        <span>Correo</span>
+        <input type="email" formControlName="email" placeholder="correo@ejemplo.com" autocomplete="email">
+      </label>
+
+      <label>
+        <span>Contrasena</span>
+        <input type="password" formControlName="password" placeholder="••••••••" autocomplete="current-password">
+      </label>
+
+      <label *ngIf="activeTab === 'register'">
+        <span>Confirmar</span>
+        <input type="password" formControlName="confirmPassword" placeholder="••••••••" autocomplete="new-password">
+      </label>
+
+      <p class="error" *ngIf="error">{{ error }}</p>
+
+      <button type="submit" [disabled]="authForm.invalid || isLoading" class="btn-pocket">
+        {{ isLoading ? 'Cargando...' : (activeTab === 'login' ? 'A combatir' : 'Crear cuenta') }}
+      </button>
+    </form>
+  </div>
+</div>

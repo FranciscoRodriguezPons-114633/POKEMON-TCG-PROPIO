@@ -1,0 +1,281 @@
+:host {
+  --card-accent: #8be9fd;
+  display: block;
+}
+
+:host-context(.slot-inner),
+:host(.slotted-card) {
+  height: 100%;
+  width: 100%;
+}
+
+.pokemon-card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px -5px rgb(0 0 0 / 0.15);
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  width: clamp(8.75rem, 12vw, 11.25rem);
+  will-change: transform;
+}
+
+.pokemon-card[data-mode='slot'] {
+  border-radius: inherit;
+  box-shadow: none;
+  height: 100%;
+  transform: none !important;
+  transition: box-shadow 0.18s ease, filter 0.18s ease;
+  width: 100%;
+}
+
+.pokemon-card[data-mode='slot']:hover {
+  box-shadow: 0 0 18px color-mix(in srgb, var(--card-accent), transparent 45%);
+  transform: none !important;
+}
+
+.pokemon-card.is-compact {
+  width: clamp(6.8rem, 10vw, 8.75rem);
+}
+
+.pokemon-card[data-mode='slot'].is-compact {
+  width: 100%;
+}
+
+.pokemon-card.is-active {
+  box-shadow: 0 20px 25px -12px rgb(56 189 248 / 0.35), 0 0 0 3px rgb(56 189 248 / 0.46);
+}
+
+.pokemon-card.is-selected {
+  box-shadow: 0 0 20px var(--card-accent), 0 18px 30px rgb(0 0 0 / 0.28);
+  transform: scale(1.05);
+}
+
+.pokemon-card.is-damaged {
+  animation: cardDamage 0.24s ease both;
+  filter: saturate(0.62);
+}
+
+.pokemon-card.is-ko {
+  filter: grayscale(1) brightness(0.5);
+  transform: rotate(90deg) scale(0.88);
+}
+
+.pokemon-card.low-hp {
+  animation: dangerPulse 0.8s ease-in-out infinite;
+}
+
+.card-foil-overlay {
+  background: radial-gradient(
+    ellipse at calc(var(--mx, 50) * 1%) calc(var(--my, 50) * 1%),
+    rgb(255 255 255 / 0.35) 0%,
+    rgb(255 200 100 / 0.15) 25%,
+    rgb(100 180 255 / 0.15) 50%,
+    transparent 70%
+  );
+  border-radius: inherit;
+  inset: 0;
+  mix-blend-mode: screen;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.2s ease;
+  z-index: 3;
+}
+
+.card-foil-overlay::after {
+  background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgb(255 255 255 / 0.04) 2px, rgb(255 255 255 / 0.04) 4px);
+  border-radius: inherit;
+  content: '';
+  inset: 0;
+  position: absolute;
+}
+
+.pokemon-card:hover {
+  box-shadow: 0 20px 30px -12px rgb(0 0 0 / 0.25);
+}
+
+.pokemon-card:hover .card-foil-overlay,
+.pokemon-card.rare .card-foil-overlay {
+  opacity: 1;
+}
+
+:host ::ng-deep .holo-shader-canvas {
+  border-radius: inherit;
+  inset: 0;
+  mix-blend-mode: screen;
+  opacity: 0.82;
+  pointer-events: none;
+  position: absolute;
+  z-index: 4;
+}
+
+.pokemon-card.rare {
+  border: 2px solid #f5b700;
+  box-shadow: 0 0 15px rgb(255 215 0 / 0.4), 0 10px 30px -5px rgb(0 0 0 / 0.15);
+}
+
+.card-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+img {
+  aspect-ratio: 0.714;
+  display: block;
+  object-fit: cover;
+  opacity: 0;
+  transform: translateY(5px) scale(0.98);
+  transition: opacity 220ms ease, transform 220ms ease;
+  width: 100%;
+}
+
+.pokemon-card[data-mode='slot'] img {
+  flex: 1 1 auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.pokemon-card[data-mode='slot'] .card-info {
+  bottom: 0;
+  left: 0;
+  padding: 0.42rem;
+  position: absolute;
+  right: 0;
+}
+
+.pokemon-card[data-mode='slot'] .card-info h3 {
+  font-size: 0.62rem;
+}
+
+.pokemon-card[data-mode='slot'] .card-info p,
+.pokemon-card[data-mode='slot'] .type-row {
+  display: none;
+}
+
+img.is-loaded {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.card-info {
+  background: rgb(255 255 255 / 0.95);
+  backdrop-filter: blur(4px);
+  padding: 0.75rem;
+}
+
+.card-info h3 {
+  color: #1e293b;
+  font-size: 0.9rem;
+  font-weight: 900;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-info p {
+  color: #ef4444;
+  font-size: 0.7rem;
+  font-weight: 800;
+  margin-top: 4px;
+}
+
+.type-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: 0.45rem;
+}
+
+.type-chip {
+  background: color-mix(in srgb, var(--card-accent), white 72%);
+  border-radius: 999px;
+  box-shadow: 0 0 8px color-mix(in srgb, var(--card-accent), transparent 44%);
+  color: #1e293b;
+  font-size: 0.62rem;
+  font-weight: 800;
+  padding: 0.12rem 0.38rem;
+  text-transform: uppercase;
+}
+
+.status-overlay {
+  align-items: center;
+  backdrop-filter: blur(1px);
+  border-radius: inherit;
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  pointer-events: none;
+  position: absolute;
+  z-index: 4;
+}
+
+.status-poisoned .status-overlay {
+  background: rgb(34 197 94 / 0.22);
+  box-shadow: inset 0 0 28px rgb(34 197 94 / 0.46);
+}
+
+.status-paralyzed .status-overlay {
+  background: rgb(251 191 36 / 0.22);
+  filter: contrast(1.1);
+}
+
+.status-burned .status-overlay {
+  animation: burnFlicker 0.32s ease-in-out infinite alternate;
+  background: linear-gradient(to top, rgb(239 68 68 / 0.32), transparent 58%);
+}
+
+.status-sleeping .status-overlay {
+  background: rgb(15 23 42 / 0.2);
+}
+
+.sleep-text,
+.status-icon {
+  color: white;
+  font-size: 1rem;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  text-shadow: 0 0 10px black;
+}
+
+.sleep-text {
+  animation: sleepFloat 1.4s ease-in-out infinite;
+}
+
+@keyframes cardDamage {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+@keyframes dangerPulse {
+  0%, 100% {
+    box-shadow: 0 10px 30px -5px rgb(0 0 0 / 0.15), 0 0 0 rgb(239 68 68 / 0);
+  }
+  50% {
+    box-shadow: 0 10px 30px -5px rgb(0 0 0 / 0.15), 0 0 22px rgb(239 68 68 / 0.7);
+  }
+}
+
+@keyframes sleepFloat {
+  0%, 100% { opacity: 0.5; transform: translateY(0); }
+  50% { opacity: 1; transform: translateY(-8px); }
+}
+
+@keyframes burnFlicker {
+  from { opacity: 0.62; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pokemon-card.low-hp,
+  .pokemon-card.is-damaged,
+  .sleep-text,
+  .status-burned .status-overlay {
+    animation: none;
+  }
+}

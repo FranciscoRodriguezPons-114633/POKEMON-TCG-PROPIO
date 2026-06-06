@@ -1,0 +1,326 @@
+<main class="arena-shell" [class.local-mode]="localMode()" [ngClass]="typeClass(arenaType())">
+  <app-background-3d [type]="arenaType()"></app-background-3d>
+  <div class="arena-vignette" aria-hidden="true"></div>
+  <div #parallaxBg class="parallax-layer parallax-bg" aria-hidden="true"></div>
+  <div #parallaxMid class="parallax-layer parallax-mid" aria-hidden="true"></div>
+  <div #parallaxFg class="parallax-layer parallax-fg" aria-hidden="true"></div>
+
+  <div #turnBanner class="turn-banner" [class.own]="turnTone() === 'own'" [class.opponent]="turnTone() === 'opponent'">
+    {{ turnTone() === 'own' ? '¡TU TURNO!' : 'Turno del rival' }}
+  </div>
+
+  <ng-container *ngIf="localMode(); else networkArena">
+    <ng-container *ngIf="localState() as local">
+      <section class="hud-overlay">
+        <div class="hud-pill opponent">
+          <div class="avatar">J2</div>
+          <div class="player-info">
+            <span class="username">Jugador 2</span>
+            <app-hp-bar [current]="activeHp(local.players.player2.activePokemon)" [max]="local.players.player2.activePokemon?.hp ?? 0"></app-hp-bar>
+          </div>
+          <app-prize-cards [total]="3" [remaining]="local.players.player2.prizes"></app-prize-cards>
+        </div>
+
+        <div class="hud-pill local">
+          <div class="avatar">J1</div>
+          <div class="player-info">
+            <span class="username">Jugador 1 · MODO PRUEBA</span>
+            <app-hp-bar [current]="activeHp(local.players.player1.activePokemon)" [max]="local.players.player1.activePokemon?.hp ?? 0"></app-hp-bar>
+          </div>
+          <app-prize-cards [total]="3" [remaining]="local.players.player1.prizes"></app-prize-cards>
+        </div>
+
+        <div class="match-status" *ngIf="local.winner">
+          Ganador: {{ local.winner === 'player1' ? 'Jugador 1' : 'Jugador 2' }}
+        </div>
+      </section>
+
+      <section class="opponent-zone board-zone">
+        <button class="deck-button opponent-deck" type="button" disabled>
+          <span class="card-count">{{ localDeckCount('player2') }}</span>
+        </button>
+
+        <div class="opponent-hand" aria-label="Mano rival">
+          <span class="card-back" *ngFor="let card of local.players.player2.hand"></span>
+        </div>
+
+        <div class="bench-row opponent-bench">
+          <div class="bench-slot" *ngFor="let card of local.players.player2.bench" [class.occupied]="!!card" [class.empty]="!card">
+            <div class="slot-inner">
+              <app-card *ngIf="card" [card]="card" [compact]="true" mode="slot" class="slotted-card bench-size"></app-card>
+              <div class="slot-empty-hint" *ngIf="!card"><div class="slot-crosshair"></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="battlefield-wrapper">
+      <section class="battlefield combat-active">
+        <div class="bench-line"></div>
+        <div class="zone-divider"></div>
+
+        <div class="active-slot opponent-active" [class.occupied]="!!local.players.player2.activePokemon" [class.empty]="!local.players.player2.activePokemon">
+          <ng-container *ngIf="local.players.player2.activePokemon as opponent">
+            <div class="slot-inner">
+              <app-card [card]="opponent" [active]="local.currentTurn === 'player2'" mode="slot" class="slotted-card"></app-card>
+            </div>
+            <app-hp-bar [current]="activeHp(opponent)" [max]="opponent.hp"></app-hp-bar>
+          </ng-container>
+          <div class="slot-inner" *ngIf="!local.players.player2.activePokemon">
+            <div class="slot-empty-hint"><div class="slot-crosshair"></div></div>
+          </div>
+        </div>
+
+        <div class="active-slot player-active" [class.occupied]="!!local.players.player1.activePokemon" [class.empty]="!local.players.player1.activePokemon">
+          <ng-container *ngIf="local.players.player1.activePokemon as player">
+            <div class="slot-inner">
+              <app-card [card]="player" [active]="local.currentTurn === 'player1'" mode="slot" class="slotted-card"></app-card>
+            </div>
+            <div class="energy-stack">
+              <app-energy-icon *ngFor="let type of player.types.slice(0, 3)" [type]="type"></app-energy-icon>
+            </div>
+            <app-hp-bar [current]="activeHp(player)" [max]="player.hp"></app-hp-bar>
+          </ng-container>
+          <div class="slot-inner" *ngIf="!local.players.player1.activePokemon">
+            <div class="slot-empty-hint"><div class="slot-crosshair"></div></div>
+          </div>
+        </div>
+
+        <div class="action-panel">
+          <button class="action-btn" type="button" (click)="localDraw()" [disabled]="!!local.winner">Robar</button>
+          <button
+            class="action-btn primary"
+            type="button"
+            *ngFor="let attack of (local.players[local.currentTurn].activePokemon?.attacks ?? []); let i = index"
+            (click)="localAttack(i)"
+            [disabled]="!!local.winner"
+          >
+            {{ attack.name }} · {{ attack.damage || 20 }}
+          </button>
+          <button class="action-btn" type="button" (click)="localPassTurn()" [disabled]="!!local.winner">Pasar turno</button>
+        </div>
+      </section>
+      </div>
+
+      <section class="player-zone board-zone">
+        <div class="bench-row player-bench">
+          <div class="bench-slot" *ngFor="let card of local.players.player1.bench" [class.occupied]="!!card" [class.empty]="!card">
+            <div class="slot-inner">
+              <app-card *ngIf="card" [card]="card" [compact]="true" mode="slot" class="slotted-card bench-size"></app-card>
+              <div class="slot-empty-hint" *ngIf="!card"><div class="slot-crosshair"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <button id="deck" class="deck-button player-deck" type="button" (click)="localDraw()" [disabled]="!!local.winner">
+          <span class="card-count">{{ localDeckCount(local.currentTurn) }}</span>
+        </button>
+      </section>
+
+      <section class="local-hand cinematic-hand" id="hand-area" aria-label="Mano del jugador actual">
+        <button
+          type="button"
+          class="local-hand-card"
+          *ngFor="let card of local.players[local.currentTurn].hand; let i = index"
+          (click)="localPlay(card.id, local)"
+          [style.--i]="i"
+          [style.--count]="local.players[local.currentTurn].hand.length"
+        >
+          <app-card [card]="card" [compact]="true"></app-card>
+        </button>
+      </section>
+    </ng-container>
+  </ng-container>
+
+  <ng-template #networkArena>
+    <section class="hud-overlay">
+      <div class="hud-pill opponent">
+        <div class="avatar">R</div>
+        <div class="player-info">
+          <span class="username">{{ realGame.backendMode() ? 'Rival conectado' : 'Rival demo' }}</span>
+          <app-hp-bar
+            [current]="realGame.backendMode() ? (realGame.opponentActivePokemon()?.currentHp ?? 0) : activeHp(game.opponentActive())"
+            [max]="realGame.backendMode() ? (realGame.opponentActivePokemon()?.hp ?? 0) : (game.opponentActive()?.hp ?? 0)"
+          ></app-hp-bar>
+        </div>
+        <app-prize-cards [total]="6" [remaining]="realGame.backendMode() ? (realGame.opponentPlayer()?.prizeCardsLeft ?? 6) : game.opponentPrizeCount()"></app-prize-cards>
+      </div>
+
+      <div class="hud-pill local">
+        <div class="avatar">TÚ</div>
+        <div class="player-info">
+          <span class="username">{{ realGame.backendMode() ? (realGame.currentGame()?.status ?? 'Backend') : 'Entrenador' }}</span>
+          <app-hp-bar
+            [current]="realGame.backendMode() ? (realGame.myActivePokemon()?.currentHp ?? 0) : activeHp(game.playerActive())"
+            [max]="realGame.backendMode() ? (realGame.myActivePokemon()?.hp ?? 0) : (game.playerActive()?.hp ?? 0)"
+          ></app-hp-bar>
+        </div>
+        <app-prize-cards [total]="6" [remaining]="realGame.backendMode() ? (realGame.myPlayer()?.prizeCardsLeft ?? 6) : game.playerPrizeCount()"></app-prize-cards>
+      </div>
+
+      <div class="match-status" *ngIf="realGame.currentGame() as backendGame">Game #{{ backendGame.id }}</div>
+      <div class="match-status" *ngIf="!realGame.backendMode()">Energía: {{ game.energy() }}</div>
+    </section>
+
+    <section class="opponent-zone board-zone" *ngIf="realGame.backendMode(); else demoOpponentTop">
+      <button class="deck-button opponent-deck" type="button" disabled>
+        <span class="card-count">{{ realGame.opponentPlayer()?.handSize ?? 0 }}</span>
+      </button>
+      <div class="opponent-hand" aria-label="Mano rival">
+        <span class="card-back" *ngFor="let item of handSlots(realGame.opponentPlayer()?.handSize)"></span>
+      </div>
+      <div class="bench-row opponent-bench">
+        <div class="bench-slot" *ngFor="let instance of realGame.opponentBench()" [class.occupied]="!!instance" [class.empty]="!instance">
+          <div class="slot-inner">
+            <app-card *ngIf="realGame.cardFromInstance(instance) as card" [card]="card" [compact]="true" mode="slot" class="slotted-card bench-size"></app-card>
+            <div class="slot-empty-hint" *ngIf="!instance"><div class="slot-crosshair"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <ng-template #demoOpponentTop>
+      <section class="opponent-zone board-zone">
+        <button class="deck-button opponent-deck" type="button" disabled>
+          <span class="card-count">{{ demoOpponentHandCount() }}</span>
+        </button>
+        <div class="opponent-hand" aria-label="Mano rival">
+          <span class="card-back" *ngFor="let card of game.opponentState().hand"></span>
+        </div>
+        <div class="bench-row opponent-bench">
+          <div class="bench-slot" *ngFor="let card of game.opponentBench()" [class.occupied]="!!card" [class.empty]="!card">
+            <div class="slot-inner">
+              <app-card *ngIf="card" [card]="card" [compact]="true" mode="slot" class="slotted-card bench-size"></app-card>
+              <div class="slot-empty-hint" *ngIf="!card"><div class="slot-crosshair"></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </ng-template>
+
+    <div class="battlefield-wrapper" *ngIf="realGame.backendMode(); else demoBattlefield">
+    <section class="battlefield" [class.combat-active]="realGame.isMyTurn()">
+      <div class="bench-line"></div>
+      <div class="zone-divider"></div>
+
+      <div class="active-slot opponent-active" [class.occupied]="!!realGame.opponentActivePokemon()" [class.empty]="!realGame.opponentActivePokemon()">
+        <ng-container *ngIf="realGame.opponentActivePokemon() as opponent">
+          <div class="slot-inner">
+            <app-card *ngIf="realGame.cardFromInstance(opponent) as card" [card]="card" [active]="!realGame.isMyTurn()" mode="slot" class="slotted-card"></app-card>
+          </div>
+          <app-hp-bar [current]="opponent.currentHp" [max]="opponent.hp"></app-hp-bar>
+        </ng-container>
+        <div class="slot-inner" *ngIf="!realGame.opponentActivePokemon()">
+          <div class="slot-empty-hint"><div class="slot-crosshair"></div></div>
+        </div>
+      </div>
+
+      <div class="active-slot player-active" [class.occupied]="!!realGame.myActivePokemon()" [class.empty]="!realGame.myActivePokemon()">
+        <ng-container *ngIf="realGame.myActivePokemon() as player">
+          <div class="slot-inner">
+            <app-card *ngIf="realGame.cardFromInstance(player) as card" [card]="card" [active]="realGame.isMyTurn()" mode="slot" class="slotted-card"></app-card>
+          </div>
+          <app-energy-indicator class="energy-anchor" [energy]="player.attachedEnergy"></app-energy-indicator>
+          <app-hp-bar [current]="player.currentHp" [max]="player.hp"></app-hp-bar>
+        </ng-container>
+        <div class="slot-inner" *ngIf="!realGame.myActivePokemon()">
+          <div class="slot-empty-hint"><div class="slot-crosshair"></div></div>
+        </div>
+      </div>
+
+      <div class="action-panel">
+        <button class="action-btn" type="button" (click)="realGame.sendAction('DRAW')" [disabled]="!realGame.isMyTurn()">Robar</button>
+        <button class="action-btn primary" type="button" (click)="realGame.attack(0)" [disabled]="!realGame.isMyTurn()">Atacar</button>
+        <button class="action-btn danger" type="button" (click)="realGame.endTurn()" [disabled]="!realGame.currentGame()">Pasar turno</button>
+        <button class="action-btn" type="button" (click)="realGame.confirmSetup()" [disabled]="realGame.currentGame()?.status !== 'SETUP'">Setup OK</button>
+        <app-energy-generator [energyPerTurn]="1" [disabled]="!realGame.isMyTurn()" (attachEnergy)="attachEnergy()"></app-energy-generator>
+      </div>
+    </section>
+    </div>
+
+    <ng-template #demoBattlefield>
+      <div class="battlefield-wrapper">
+      <section class="battlefield">
+        <div class="bench-line"></div>
+        <div class="zone-divider"></div>
+
+        <div class="active-slot opponent-active" [class.occupied]="!!game.opponentActive()" [class.empty]="!game.opponentActive()">
+          <ng-container *ngIf="game.opponentActive() as opponent">
+            <div class="slot-inner">
+              <app-card [card]="opponent" [active]="game.turn() === 'opponent'" mode="slot" class="slotted-card"></app-card>
+            </div>
+            <app-hp-bar [current]="activeHp(opponent)" [max]="opponent.hp"></app-hp-bar>
+          </ng-container>
+          <div class="slot-inner" *ngIf="!game.opponentActive()">
+            <div class="slot-empty-hint"><div class="slot-crosshair"></div></div>
+          </div>
+        </div>
+
+        <div class="active-slot player-active" [class.occupied]="!!game.playerActive()" [class.empty]="!game.playerActive()">
+          <ng-container *ngIf="game.playerActive() as player">
+            <div class="slot-inner">
+              <app-card [card]="player" [active]="game.turn() === 'player'" mode="slot" class="slotted-card"></app-card>
+            </div>
+            <app-energy-indicator class="energy-anchor" [energy]="game.energy()"></app-energy-indicator>
+            <app-hp-bar [current]="activeHp(player)" [max]="player.hp"></app-hp-bar>
+          </ng-container>
+          <div class="slot-inner" *ngIf="!game.playerActive()">
+            <div class="slot-empty-hint"><div class="slot-crosshair"></div></div>
+          </div>
+        </div>
+
+        <div class="action-panel" *ngIf="game.playerActive() as active">
+          <button class="action-btn" type="button" (click)="game.drawCard({ x: $event.clientX, y: $event.clientY })" [disabled]="!game.canAct()">Robar</button>
+          <button
+            class="action-btn primary"
+            type="button"
+            *ngFor="let attack of active.attacks; let i = index"
+            (click)="game.attack(i)"
+            [disabled]="!game.canAct()"
+          >
+            {{ attack.name }} · {{ attack.damage }}
+          </button>
+          <button class="action-btn danger" type="button" (click)="game.endTurn()" [disabled]="game.loading() || !!game.gameOver()">Pasar turno</button>
+          <app-energy-generator [energyPerTurn]="game.energy()" [disabled]="!game.canAct()" (attachEnergy)="attachEnergy()"></app-energy-generator>
+        </div>
+      </section>
+      </div>
+    </ng-template>
+
+    <section class="player-zone board-zone">
+      <div class="bench-row player-bench" *ngIf="realGame.backendMode(); else demoPlayerBench">
+        <div class="bench-slot" *ngFor="let instance of realGame.myBench()" [class.occupied]="!!instance" [class.empty]="!instance">
+          <div class="slot-inner">
+            <app-card *ngIf="realGame.cardFromInstance(instance) as card" [card]="card" [compact]="true" mode="slot" class="slotted-card bench-size"></app-card>
+            <div class="slot-empty-hint" *ngIf="!instance"><div class="slot-crosshair"></div></div>
+          </div>
+        </div>
+      </div>
+      <ng-template #demoPlayerBench>
+        <div class="bench-row player-bench">
+          <div class="bench-slot" *ngFor="let card of game.playerBench()" [class.occupied]="!!card" [class.empty]="!card">
+            <div class="slot-inner">
+              <app-card *ngIf="card" [card]="card" [compact]="true" mode="slot" class="slotted-card bench-size"></app-card>
+              <div class="slot-empty-hint" *ngIf="!card"><div class="slot-crosshair"></div></div>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </section>
+
+    <app-hand></app-hand>
+    <app-victory-screen
+      *ngIf="victoryData() as victory"
+      [data]="victory"
+      (rematch)="onRematch()"
+      (mainMenu)="onMainMenu()"
+    ></app-victory-screen>
+  </ng-template>
+
+  <app-victory-screen
+    *ngIf="localMode() && victoryData() as victory"
+    [data]="victory"
+    (rematch)="onRematch()"
+    (mainMenu)="onMainMenu()"
+  ></app-victory-screen>
+</main>

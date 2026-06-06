@@ -1,0 +1,23 @@
+<div class="carousel-container">
+  <button type="button" class="carousel-nav left" (click)="scroll(-1)">‹</button>
+  <div class="carousel-track" #track>
+    <button
+      type="button"
+      *ngFor="let deck of decks"
+      class="deck-card"
+      [class.selected]="deck.id === selectedDeckId"
+      (click)="selectDeck.emit(deck)"
+    >
+      <div class="cover">
+        <img *ngIf="deck.coverCard?.imageUrl; else fallbackCover" [src]="deck.coverCard?.imageUrl" [alt]="deck.coverCard?.name || deck.name">
+        <ng-template #fallbackCover><span>{{ deck.name.charAt(0) }}</span></ng-template>
+      </div>
+      <div class="deck-info">
+        <h3>{{ deck.name }}</h3>
+        <p>{{ deck.cards.length }} cartas</p>
+      </div>
+    </button>
+  </div>
+  <button type="button" class="carousel-nav right" (click)="scroll(1)">›</button>
+</div>
+

@@ -1,0 +1,66 @@
+<div class="lobby-container">
+  <app-sidebar
+    (createGame)="createGame()"
+    (joinGame)="joinGame()"
+    (playSolo)="playSolo()"
+    (showHistory)="showHistory = true"
+  ></app-sidebar>
+
+  <main class="main-content">
+    <header class="header">
+      <div>
+        <p>Centro de control</p>
+        <h1>Lobby Principal</h1>
+      </div>
+      <div class="selected" *ngIf="selectedDeck() as deck">Mazo activo: {{ deck.name }}</div>
+    </header>
+
+    <div class="tabs">
+      <button type="button" [class.active]="activeTab === 'decks'" (click)="activeTab = 'decks'">Mis Mazos</button>
+      <button type="button" [class.active]="activeTab === 'builder'" (click)="activeTab = 'builder'">Constructor</button>
+    </div>
+
+    <p class="status" *ngIf="status()">{{ status() }}</p>
+
+    <section class="tab-content">
+      <ng-container *ngIf="activeTab === 'decks'">
+        <section class="bento-card">
+          <div class="bento-header">
+            <h2>Mis mazos</h2>
+            <button type="button" (click)="activeTab = 'builder'">Crear nuevo</button>
+          </div>
+          <app-deck-selector
+            [decks]="decks()"
+            [selectedDeckId]="selectedDeck()?.id ?? null"
+            (selectDeck)="selectDeck($event)"
+          ></app-deck-selector>
+        </section>
+
+        <section class="bento-grid">
+          <article class="bento-card quick-card">
+            <span class="quick-icon">⚔️</span>
+            <h3>Combate rapido</h3>
+            <p>Usa tu mazo activo para abrir una partida o probar en local.</p>
+            <button type="button" class="accent-action" (click)="playSolo()">Jugar solo</button>
+          </article>
+          <article class="bento-card quick-card">
+            <span class="quick-icon">🎴</span>
+            <h3>Constructor</h3>
+            <p>Carga cartas XY1, filtra por tipo y arma un mazo Pocket de 20 cartas.</p>
+            <button type="button" class="info-action" (click)="activeTab = 'builder'">Abrir constructor</button>
+          </article>
+        </section>
+      </ng-container>
+
+      <section class="bento-card" *ngIf="activeTab === 'builder'">
+        <div class="bento-header">
+          <h2>Constructor de mazos</h2>
+          <button type="button" (click)="activeTab = 'decks'">Volver a mis mazos</button>
+        </div>
+        <app-deck-builder (saveDeck)="saveDeck($event)"></app-deck-builder>
+      </section>
+    </section>
+  </main>
+
+  <app-match-history *ngIf="showHistory" (close)="showHistory = false"></app-match-history>
+</div>

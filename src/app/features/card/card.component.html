@@ -1,0 +1,49 @@
+<article
+  appPocketTilt
+  [appPocketTiltDisabled]="mode === 'slot'"
+  class="pokemon-card"
+  [attr.data-mode]="mode"
+  [id]="'card-' + card.id"
+  [class.is-active]="active"
+  [class.is-compact]="compact"
+  [class.is-selected]="selected"
+  [class.is-damaged]="damaged"
+  [class.is-ko]="ko"
+  [class.low-hp]="lowHp"
+  [class.status-sleeping]="status === 'sleeping'"
+  [class.status-paralyzed]="status === 'paralyzed'"
+  [class.status-poisoned]="status === 'poisoned'"
+  [class.status-burned]="status === 'burned'"
+  [class.rare]="card.rarity === 'ex'"
+  [style.--foil-accent]="card.accent"
+  [appHolographicShader]="card.rarity === 'ex' && mode !== 'slot'"
+>
+  <div class="card-inner">
+    <img
+      *ngIf="card.imageUrl"
+      [id]="'card-img-' + card.id"
+      [src]="card.imageUrl"
+      [alt]="card.name"
+      loading="lazy"
+      (load)="imageLoaded = true"
+      [class.is-loaded]="imageLoaded"
+    />
+
+    <div class="card-info">
+      <h3>{{ card.name }}</h3>
+      <p>{{ card.hp }} HP</p>
+      <div class="type-row">
+        <span *ngFor="let type of card.types" class="type-chip">{{ type }}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-foil-overlay" aria-hidden="true"></div>
+
+  <div class="status-overlay" *ngIf="status">
+    <span *ngIf="status === 'sleeping'" class="sleep-text">ZZZ</span>
+    <span *ngIf="status === 'paralyzed'" class="status-icon">PAR</span>
+    <span *ngIf="status === 'poisoned'" class="status-icon">!</span>
+    <span *ngIf="status === 'burned'" class="status-icon">BURN</span>
+  </div>
+</article>

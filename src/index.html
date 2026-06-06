@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>PokemonPocketAngular</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+      // Polyfill for sockjs-client
+      if (typeof global === 'undefined') {
+        window.global = window;
+      }
+    </script>
+    <style>
+      .landscape-overlay {
+        align-items: center;
+        background: #0a0e17;
+        color: white;
+        display: flex;
+        inset: 0;
+        justify-content: center;
+        opacity: 0;
+        padding: 1.5rem;
+        position: fixed;
+        text-align: center;
+        transition: opacity 0.2s ease;
+        visibility: hidden;
+        z-index: 10000;
+      }
+
+      .landscape-overlay p {
+        background: rgba(0, 0, 0, 0.7);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 2rem;
+        font:
+          700 1.1rem system-ui,
+          sans-serif;
+        margin: 0;
+        max-width: 28rem;
+        padding: 1rem 1.4rem;
+      }
+
+      @media (max-aspect-ratio: 1/1) and (max-width: 900px) {
+        .landscape-overlay {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="landscape-overlay">
+      <p>Por favor, gira tu dispositivo a modo horizontal para jugar.</p>
+    </div>
+    <app-root></app-root>
+  </body>
+</html>

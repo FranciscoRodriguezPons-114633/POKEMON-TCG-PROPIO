@@ -1,0 +1,25 @@
+<section class="hand-zone" aria-label="Player hand">
+  <button id="deck" class="deck-button" type="button" (click)="draw($event)" [disabled]="realGame.backendMode() && !realGame.isMyTurn()">
+    <span>{{ deckCount() }}</span>
+    {{ realGame.backendMode() ? 'Hand' : 'Deck' }}
+  </button>
+
+  <div id="hand-area" class="hand-stage" cdkDropList>
+    <button
+      *ngFor="let card of hand(); let i = index"
+      cdkDrag
+      class="hand-card"
+      type="button"
+      [style.transform]="cardTransform(i)"
+      [style.z-index]="cardZIndex(i)"
+      [disabled]="!canPlay()"
+      [class.is-hovered]="hoveredIndex() === i"
+      (mouseenter)="onCardHover(i)"
+      (mouseleave)="onCardLeave()"
+      (click)="play(card, $event)"
+      [attr.aria-label]="'Play ' + card.name"
+    >
+      <app-card [card]="card" [compact]="true"></app-card>
+    </button>
+  </div>
+</section>

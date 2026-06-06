@@ -1,0 +1,48 @@
+<div class="builder-layout">
+  <section class="catalog">
+    <div class="toolbar">
+      <input type="text" placeholder="Buscar carta..." [ngModel]="searchTerm()" (ngModelChange)="onSearchChange($event)">
+      <select [ngModel]="selectedType()" (ngModelChange)="selectedType.set($event)">
+        <option value="">Todos los tipos</option>
+        <option *ngFor="let type of types" [value]="type">{{ type }}</option>
+      </select>
+      <select [ngModel]="selectedRarity()" (ngModelChange)="selectedRarity.set($event)">
+        <option value="">Todas las rarezas</option>
+        <option value="common">Comun</option>
+        <option value="rare">Rara</option>
+        <option value="ex">EX</option>
+      </select>
+      <button type="button" class="recommended-btn" (click)="loadRecommendedDeck()">⭐ Mazo recomendado</button>
+    </div>
+
+    <div class="cards-grid" *ngIf="isLoading()">
+      <div class="skeleton-card animate-pulse" *ngFor="let skeleton of skeletons" aria-hidden="true">
+        <div class="skeleton-image"></div>
+        <div class="skeleton-line w-3/4"></div>
+        <div class="skeleton-line w-1/2"></div>
+      </div>
+    </div>
+
+    <p class="empty-state" *ngIf="!isLoading() && filteredCards().length === 0">
+      No hay cartas para esa busqueda.
+    </p>
+
+    <div class="cards-grid" *ngIf="!isLoading() && filteredCards().length > 0">
+      <button type="button" class="catalog-card" *ngFor="let card of filteredCards()" (click)="addToDeck(card)">
+        <app-card [card]="card" [compact]="true"></app-card>
+      </button>
+    </div>
+  </section>
+
+  <aside class="deck-area">
+    <input class="deck-name" [ngModel]="deckName()" (ngModelChange)="deckName.set($event)" aria-label="Nombre del mazo">
+    <h3>Tu mazo ({{ deckCards().length }}/{{ maxDeckSize }})</h3>
+    <div class="deck-list">
+      <div *ngFor="let card of uniqueDeckCards()" class="deck-card-mini">
+        <span>{{ card.name }} x{{ getCount(card) }}</span>
+        <button type="button" (click)="removeFromDeck(card)">-</button>
+      </div>
+    </div>
+    <button type="button" class="save-btn" (click)="emitSave()" [disabled]="deckCards().length !== maxDeckSize">Guardar mazo</button>
+  </aside>
+</div>

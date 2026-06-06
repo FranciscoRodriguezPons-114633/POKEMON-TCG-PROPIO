@@ -1,0 +1,101 @@
+<div class="victory-root" #victoryRoot>
+  <div class="victory-overlay"></div>
+  <canvas #particleCanvas class="particles-canvas"></canvas>
+
+  <div class="type-emblem" [attr.data-type]="data.winningCard.type">
+    {{ getTypeEmoji(data.winningCard.type) }}
+  </div>
+
+  <div class="levelup-banner" style="opacity: 0; transform: translate(-50%, -50%) scaleX(0);">
+    ¡Subiste al nivel {{ data.rewards.levelAfter }}!
+  </div>
+
+  <div class="victory-content">
+    <div class="victory-title-wrap" style="opacity: 0;">
+      <div class="title-shadow" aria-hidden="true">¡Victoria!</div>
+      <div class="victory-hex-frame"></div>
+      <span class="victory-title">¡Victoria!</span>
+    </div>
+
+    <p class="victory-subtitle">{{ data.winnerName }} ha ganado el duelo</p>
+
+    <div class="center-row">
+      <div class="winning-card-section">
+        <div class="winning-card-wrap" #winCardEl style="opacity: 0;">
+          <div class="winning-card" [class.is-ex]="data.winningCard.isEX" [attr.data-type]="data.winningCard.type">
+            <div class="card-image-area">
+              <img [src]="data.winningCard.imageUrl" [alt]="data.winningCard.name" class="card-img" />
+              <div class="card-image-overlay"></div>
+            </div>
+
+            <div class="card-info-area">
+              <span class="card-name">{{ data.winningCard.name }}</span>
+              <span class="card-hp-text">{{ data.winningCard.currentHp }}/{{ data.winningCard.maxHp }} HP</span>
+              <span class="type-badge" [attr.data-type]="data.winningCard.type">{{ data.winningCard.type | uppercase }}</span>
+            </div>
+
+            <div class="ex-badge" *ngIf="data.winningCard.isEX">EX</div>
+            <div class="card-foil-overlay"></div>
+          </div>
+        </div>
+        <span class="section-label">Carta ganadora</span>
+      </div>
+
+      <div class="stats-section">
+        <div class="stat-pill" style="opacity: 0;">
+          <span class="stat-val">{{ data.stats.kos }}</span>
+          <span class="stat-key">KOs</span>
+        </div>
+        <div class="stat-pill" style="opacity: 0;">
+          <span class="stat-val">{{ data.stats.rounds }}</span>
+          <span class="stat-key">Rondas</span>
+        </div>
+        <div class="stat-pill" style="opacity: 0;">
+          <span class="stat-val">{{ data.stats.prizesCollected }}</span>
+          <span class="stat-key">Premios</span>
+        </div>
+        <div class="stat-pill" style="opacity: 0;">
+          <span class="stat-val">{{ data.stats.damageDealt }}</span>
+          <span class="stat-key">Daño total</span>
+        </div>
+      </div>
+
+      <div class="pack-section" *ngIf="data.rewards.packReward">
+        <div class="reward-pack-wrap" style="opacity: 0;">
+          <div class="reward-pack" [attr.data-rarity]="data.rewards.packType">
+            <div class="pack-glow"></div>
+            <div class="pack-artwork"></div>
+            <div class="pack-label">SOBRE</div>
+          </div>
+        </div>
+        <span class="section-label">Recompensa</span>
+      </div>
+    </div>
+
+    <div class="xp-section">
+      <div class="xp-header">
+        <span class="xp-label">Experiencia</span>
+        <span class="xp-gain-number" style="opacity: 0;">+0 XP</span>
+      </div>
+      <div class="xp-track">
+        <div class="xp-fill-prev" [style.width.%]="data.rewards.xpBefore"></div>
+        <div class="xp-fill-new" [style.left.%]="data.rewards.xpBefore" style="width: 0%;">
+          <div class="xp-shimmer"></div>
+        </div>
+      </div>
+      <div class="xp-level-labels">
+        <span class="level-text">Nivel</span>
+        <span class="level-num">{{ data.rewards.levelBefore }}</span>
+        <span *ngIf="data.rewards.levelAfter > data.rewards.levelBefore">
+          <span class="level-arrow">→</span>
+          <span class="level-num level-new">{{ data.rewards.levelAfter }}</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="action-row">
+      <button class="btn-rematch" type="button" (click)="rematch.emit()">Revancha</button>
+      <button class="btn-menu" type="button" (click)="mainMenu.emit()">Menú principal</button>
+    </div>
+  </div>
+</div>

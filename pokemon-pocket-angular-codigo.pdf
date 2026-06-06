@@ -1,0 +1,3845 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 10 0 R 13 0 R 16 0 R 19 0 R 22 0 R 25 0 R 28 0 R 31 0 R 34 0 R 37 0 R 40 0 R 43 0 R 46 0 R 49 0 R 52 0 R 55 0 R 58 0 R 61 0 R 64 0 R 67 0 R 70 0 R 73 0 R 76 0 R 79 0 R 82 0 R 85 0 R 88 0 R 91 0 R 94 0 R 97 0 R 100 0 R 103 0 R 106 0 R 109 0 R 112 0 R 115 0 R 118 0 R 121 0 R 124 0 R 127 0 R 130 0 R 133 0 R 136 0 R 139 0 R] /Count 45 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+5 0 obj
+<< /Length 2921 >>
+stream
+BT
+/F1 18 Tf
+1 0 0 1 42.00 742.00 Tm (Pokemon Pocket Angular - Codigo del proyecto) Tj
+/F1 10 Tf
+1 0 0 1 42.00 710.00 Tm (Ruta: /Users/franciscorodriguezpons/Documents/New project/pokemon-pocket-angular) Tj
+/F1 10 Tf
+1 0 0 1 42.00 697.00 Tm (Generado: 2026-05-30 17:02) Tj
+/F1 10 Tf
+1 0 0 1 42.00 684.00 Tm (Archivos incluidos: 36) Tj
+/F1 10 Tf
+1 0 0 1 42.00 651.00 Tm (Excluido: node_modules, dist, .angular, .git, package-lock.json y binarios.) Tj
+/F1 14 Tf
+1 0 0 1 42.00 618.00 Tm (Indice) Tj
+/F1 9 Tf
+1 0 0 1 42.00 600.00 Tm (.vscode/extensions.json) Tj
+/F1 9 Tf
+1 0 0 1 42.00 589.00 Tm (.vscode/launch.json) Tj
+/F1 9 Tf
+1 0 0 1 42.00 578.00 Tm (.vscode/mcp.json) Tj
+/F1 9 Tf
+1 0 0 1 42.00 567.00 Tm (.vscode/tasks.json) Tj
+/F1 9 Tf
+1 0 0 1 42.00 556.00 Tm (README.md) Tj
+/F1 9 Tf
+1 0 0 1 42.00 545.00 Tm (angular.json) Tj
+/F1 9 Tf
+1 0 0 1 42.00 534.00 Tm (package.json) Tj
+/F1 9 Tf
+1 0 0 1 42.00 523.00 Tm (public/foil-worklet.js) Tj
+/F1 9 Tf
+1 0 0 1 42.00 512.00 Tm (src/app/app.config.ts) Tj
+/F1 9 Tf
+1 0 0 1 42.00 501.00 Tm (src/app/app.html) Tj
+/F1 9 Tf
+1 0 0 1 42.00 490.00 Tm (src/app/app.scss) Tj
+/F1 9 Tf
+1 0 0 1 42.00 479.00 Tm (src/app/app.spec.ts) Tj
+/F1 9 Tf
+1 0 0 1 42.00 468.00 Tm (src/app/app.ts) Tj
+/F1 9 Tf
+1 0 0 1 42.00 457.00 Tm (src/app/core/models/pokemon-card.model.ts) Tj
+/F1 9 Tf
+1 0 0 1 42.00 446.00 Tm (src/app/core/services/fx.service.ts) Tj
+/F1 9 Tf
+1 0 0 1 42.00 435.00 Tm (src/app/core/services/game.service.ts) Tj
+/F1 9 Tf
+1 0 0 1 42.00 424.00 Tm (src/app/core/services/hand-layout.service.ts) Tj
+/F1 9 Tf
+1 0 0 1 42.00 413.00 Tm (src/app/features/arena/arena.component.html) Tj
+/F1 9 Tf
+1 0 0 1 42.00 402.00 Tm (src/app/features/arena/arena.component.scss) Tj
+/F1 9 Tf
+1 0 0 1 42.00 391.00 Tm (src/app/features/arena/arena.component.ts) Tj
+/F1 9 Tf
+1 0 0 1 42.00 380.00 Tm (src/app/features/card/card.component.html) Tj
+/F1 9 Tf
+1 0 0 1 42.00 369.00 Tm (src/app/features/card/card.component.scss) Tj
+/F1 9 Tf
+1 0 0 1 42.00 358.00 Tm (src/app/features/card/card.component.ts) Tj
+/F1 9 Tf
+1 0 0 1 42.00 347.00 Tm (src/app/features/fx-layer/fx-layer.component.html) Tj
+/F1 9 Tf
+1 0 0 1 42.00 336.00 Tm (src/app/features/fx-layer/fx-layer.component.scss) Tj
+/F1 9 Tf
+1 0 0 1 42.00 325.00 Tm (src/app/features/fx-layer/fx-layer.component.ts) Tj
+/F1 9 Tf
+1 0 0 1 42.00 314.00 Tm (src/app/features/hand/hand.component.html) Tj
+/F1 9 Tf
+1 0 0 1 42.00 303.00 Tm (src/app/features/hand/hand.component.scss) Tj
+/F1 9 Tf
+1 0 0 1 42.00 292.00 Tm (src/app/features/hand/hand.component.ts) Tj
+/F1 9 Tf
+1 0 0 1 42.00 281.00 Tm (src/app/shared/directives/tilt.directive.ts) Tj
+/F1 9 Tf
+1 0 0 1 42.00 270.00 Tm (src/index.html) Tj
+/F1 9 Tf
+1 0 0 1 42.00 259.00 Tm (src/main.ts) Tj
+/F1 9 Tf
+1 0 0 1 42.00 248.00 Tm (src/styles.scss) Tj
+/F1 9 Tf
+1 0 0 1 42.00 237.00 Tm (tsconfig.app.json) Tj
+/F1 9 Tf
+1 0 0 1 42.00 226.00 Tm (tsconfig.json) Tj
+/F1 9 Tf
+1 0 0 1 42.00 215.00 Tm (tsconfig.spec.json) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Length 51 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 1 de 45) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [5 0 R 6 0 R] >>
+endobj
+8 0 obj
+<< /Length 362 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (.vscode/extensions.json) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm (1  {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm (2    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=827846) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm (3    "recommendations": ["angular.ng-template"]) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm (4  }) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Length 51 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 2 de 45) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [8 0 R 9 0 R] >>
+endobj
+11 0 obj
+<< /Length 1374 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (.vscode/launch.json) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3    "version": "0.2.0",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4    "configurations": [) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5      {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6        "name": "ng serve",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7        "type": "chrome",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8        "request": "launch",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9        "preLaunchTask": "npm: start",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10        "url": "http://localhost:4200/") Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11      },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12      {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13        "name": "ng test",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14        "type": "chrome",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15        "request": "launch",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16        "preLaunchTask": "npm: test",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (17        "url": "http://localhost:9876/debug.html") Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (18      }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (19    ]) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (20  }) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Length 51 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 3 de 45) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [11 0 R 12 0 R] >>
+endobj
+14 0 obj
+<< /Length 609 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (.vscode/mcp.json) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm (1  {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm (2    // For more information, visit: https://angular.dev/ai/mcp) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm (3    "servers": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm (4      "angular-cli": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm (5        "command": "npx",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm (6        "args": ["-y", "@angular/cli", "mcp"]) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm (7      }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm (8    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm (9  }) Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Length 51 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 4 de 45) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [14 0 R 15 0 R] >>
+endobj
+17 0 obj
+<< /Length 2809 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (.vscode/tasks.json) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2    // For more information, visit: https://go.microsoft.com/fwlink/?LinkId=733558) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3    "version": "2.0.0",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4    "tasks": [) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5      {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6        "type": "npm",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7        "script": "start",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8        "isBackground": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9        "problemMatcher": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10          "owner": "typescript",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11          "pattern": "$tsc",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12          "background": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13            "activeOnStart": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14            "beginsPattern": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15              "regexp": "Changes detected") Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16            },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (17            "endsPattern": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (18              "regexp": "bundle generation \(complete|failed\)") Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (19            }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (20          }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (21        }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (22      },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (23      {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (24        "type": "npm",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (25        "script": "test",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (26        "isBackground": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm (27        "problemMatcher": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm (28          "owner": "typescript",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm (29          "pattern": "$tsc",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm (30          "background": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm (31            "activeOnStart": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm (32            "beginsPattern": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm (33              "regexp": "Changes detected") Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.80 Tm (34            },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.40 Tm (35            "endsPattern": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 385.00 Tm (36              "regexp": "bundle generation \(complete|failed\)") Tj
+/F2 8 Tf
+1 0 0 1 42.00 375.60 Tm (37            }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 366.20 Tm (38          }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 356.80 Tm (39        }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 347.40 Tm (40      }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 338.00 Tm (41    ]) Tj
+/F2 8 Tf
+1 0 0 1 42.00 328.60 Tm (42  }) Tj
+ET
+endstream
+endobj
+18 0 obj
+<< /Length 51 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 5 de 45) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [17 0 R 18 0 R] >>
+endobj
+20 0 obj
+<< /Length 4231 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (README.md) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  # PokemonPocketAngular) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3  This project was generated using [Angular CLI]\(https://github.com/angular/angular-cli\) version ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm (    21.2.12.) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 4  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 5  ## Development server) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 6  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 7  To start a local development server, run:) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 8  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm ( 9  ```bash) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (10  ng serve) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (11  ```) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (12  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (13  Once the server is running, open your browser and navigate to `http://localhost:4200/`. The ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (    application will automatically reload whenever you modify any of the source files.) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (14  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (15  ## Code scaffolding) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (16  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (17  Angular CLI includes powerful code scaffolding tools. To generate a new component, run:) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (18  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (19  ```bash) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (20  ng generate component component-name) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (21  ```) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (22  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (23  For a complete list of available schematics \(such as `components`, `directives`, or `pipes`\), run:) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (24  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm (25  ```bash) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm (26  ng generate --help) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm (27  ```) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm (28  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm (29  ## Building) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm (30  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm (31  To build the project run:) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.80 Tm (32  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.40 Tm (33  ```bash) Tj
+/F2 8 Tf
+1 0 0 1 42.00 385.00 Tm (34  ng build) Tj
+/F2 8 Tf
+1 0 0 1 42.00 375.60 Tm (35  ```) Tj
+/F2 8 Tf
+1 0 0 1 42.00 366.20 Tm (36  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 356.80 Tm (37  This will compile your project and store the build artifacts in the `dist/` directory. By default, ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 347.40 Tm (    the production build optimizes your application for performance and speed.) Tj
+/F2 8 Tf
+1 0 0 1 42.00 338.00 Tm (38  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 328.60 Tm (39  ## Running unit tests) Tj
+/F2 8 Tf
+1 0 0 1 42.00 319.20 Tm (40  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 309.80 Tm (41  To execute unit tests with the [Vitest]\(https://vitest.dev/\) test runner, use the following command:) Tj
+/F2 8 Tf
+1 0 0 1 42.00 300.40 Tm (42  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 291.00 Tm (43  ```bash) Tj
+/F2 8 Tf
+1 0 0 1 42.00 281.60 Tm (44  ng test) Tj
+/F2 8 Tf
+1 0 0 1 42.00 272.20 Tm (45  ```) Tj
+/F2 8 Tf
+1 0 0 1 42.00 262.80 Tm (46  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 253.40 Tm (47  ## Running end-to-end tests) Tj
+/F2 8 Tf
+1 0 0 1 42.00 244.00 Tm (48  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 234.60 Tm (49  For end-to-end \(e2e\) testing, run:) Tj
+/F2 8 Tf
+1 0 0 1 42.00 225.20 Tm (50  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 215.80 Tm (51  ```bash) Tj
+/F2 8 Tf
+1 0 0 1 42.00 206.40 Tm (52  ng e2e) Tj
+/F2 8 Tf
+1 0 0 1 42.00 197.00 Tm (53  ```) Tj
+/F2 8 Tf
+1 0 0 1 42.00 187.60 Tm (54  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 178.20 Tm (55  Angular CLI does not come with an end-to-end testing framework by default. You can choose one that ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 168.80 Tm (    suits your needs.) Tj
+/F2 8 Tf
+1 0 0 1 42.00 159.40 Tm (56  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 150.00 Tm (57  ## Additional Resources) Tj
+/F2 8 Tf
+1 0 0 1 42.00 140.60 Tm (58  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 131.20 Tm (59  For more information on using the Angular CLI, including detailed command references, visit the ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 121.80 Tm (    [Angular CLI Overview and Command Reference]\(https://angular.dev/tools/cli\) page.) Tj
+ET
+endstream
+endobj
+21 0 obj
+<< /Length 51 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 6 de 45) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [20 0 R 21 0 R] >>
+endobj
+23 0 obj
+<< /Length 5078 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (angular.json) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3    "version": 1,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4    "cli": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5      "packageManager": "npm") Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6    },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7    "newProjectRoot": "projects",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8    "projects": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9      "pokemon-pocket-angular": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10        "projectType": "application",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11        "schematics": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12          "@schematics/angular:component": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13            "style": "scss") Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14          }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15        },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16        "root": "",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (17        "sourceRoot": "src",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (18        "prefix": "app",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (19        "architect": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (20          "build": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (21            "builder": "@angular/build:application",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (22            "options": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (23              "browser": "src/main.ts",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (24              "tsConfig": "tsconfig.app.json",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (25              "inlineStyleLanguage": "scss",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (26              "assets": [) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm (27                {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm (28                  "glob": "**/*",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm (29                  "input": "public") Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm (30                }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm (31              ],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm (32              "styles": [) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm (33                "src/styles.scss") Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.80 Tm (34              ]) Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.40 Tm (35            },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 385.00 Tm (36            "configurations": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 375.60 Tm (37              "production": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 366.20 Tm (38                "budgets": [) Tj
+/F2 8 Tf
+1 0 0 1 42.00 356.80 Tm (39                  {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 347.40 Tm (40                    "type": "initial",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 338.00 Tm (41                    "maximumWarning": "500kB",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 328.60 Tm (42                    "maximumError": "1MB") Tj
+/F2 8 Tf
+1 0 0 1 42.00 319.20 Tm (43                  },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 309.80 Tm (44                  {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 300.40 Tm (45                    "type": "anyComponentStyle",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 291.00 Tm (46                    "maximumWarning": "4kB",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 281.60 Tm (47                    "maximumError": "8kB") Tj
+/F2 8 Tf
+1 0 0 1 42.00 272.20 Tm (48                  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 262.80 Tm (49                ],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 253.40 Tm (50                "outputHashing": "all") Tj
+/F2 8 Tf
+1 0 0 1 42.00 244.00 Tm (51              },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 234.60 Tm (52              "development": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 225.20 Tm (53                "optimization": false,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 215.80 Tm (54                "extractLicenses": false,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 206.40 Tm (55                "sourceMap": true) Tj
+/F2 8 Tf
+1 0 0 1 42.00 197.00 Tm (56              }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 187.60 Tm (57            },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 178.20 Tm (58            "defaultConfiguration": "production") Tj
+/F2 8 Tf
+1 0 0 1 42.00 168.80 Tm (59          },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 159.40 Tm (60          "serve": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 150.00 Tm (61            "builder": "@angular/build:dev-server",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 140.60 Tm (62            "configurations": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 131.20 Tm (63              "production": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 121.80 Tm (64                "buildTarget": "pokemon-pocket-angular:build:production") Tj
+/F2 8 Tf
+1 0 0 1 42.00 112.40 Tm (65              },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 103.00 Tm (66              "development": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 93.60 Tm (67                "buildTarget": "pokemon-pocket-angular:build:development") Tj
+/F2 8 Tf
+1 0 0 1 42.00 84.20 Tm (68              }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 74.80 Tm (69            },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 65.40 Tm (70            "defaultConfiguration": "development") Tj
+/F2 8 Tf
+1 0 0 1 42.00 56.00 Tm (71          },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 46.60 Tm (72          "test": {) Tj
+ET
+endstream
+endobj
+24 0 obj
+<< /Length 51 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 7 de 45) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [23 0 R 24 0 R] >>
+endobj
+26 0 obj
+<< /Length 335 >>
+stream
+BT
+/F2 8 Tf
+1 0 0 1 42.00 742.00 Tm (73            "builder": "@angular/build:unit-test") Tj
+/F2 8 Tf
+1 0 0 1 42.00 732.60 Tm (74          }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 723.20 Tm (75        }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 713.80 Tm (76      }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.40 Tm (77    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.00 Tm (78  }) Tj
+ET
+endstream
+endobj
+27 0 obj
+<< /Length 51 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 8 de 45) Tj ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [26 0 R 27 0 R] >>
+endobj
+29 0 obj
+<< /Length 2267 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (package.json) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2    "name": "pokemon-pocket-angular",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3    "version": "0.0.0",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4    "scripts": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5      "ng": "ng",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6      "start": "ng serve",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7      "build": "ng build",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8      "watch": "ng build --watch --configuration development",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9      "test": "ng test") Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10    },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11    "private": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12    "packageManager": "npm@11.12.1",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13    "dependencies": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14      "@angular/common": "^21.2.0",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15      "@angular/compiler": "^21.2.0",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16      "@angular/core": "^21.2.0",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (17      "@angular/forms": "^21.2.0",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (18      "@angular/platform-browser": "^21.2.0",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (19      "@angular/router": "^21.2.0",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (20      "gsap": "^3.13.0",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (21      "rxjs": "~7.8.0",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (22      "tslib": "^2.3.0") Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (23    },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (24    "devDependencies": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (25      "@angular/build": "^21.2.12",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (26      "@angular/cli": "^21.2.12",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm (27      "@angular/compiler-cli": "^21.2.0",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm (28      "jsdom": "^28.0.0",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm (29      "prettier": "^3.8.1",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm (30      "typescript": "~5.9.2",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm (31      "vitest": "^4.0.8") Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm (32    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm (33  }) Tj
+ET
+endstream
+endobj
+30 0 obj
+<< /Length 51 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 9 de 45) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [29 0 R 30 0 R] >>
+endobj
+32 0 obj
+<< /Length 2594 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (public/foil-worklet.js) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  if \(typeof registerPaint === 'function'\) {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2    registerPaint\('foil-shine', class {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3      static get inputProperties\(\) {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4        return ['--foil-accent'];) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5      }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7      paint\(ctx, size, props\) {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8        const accent = props.get\('--foil-accent'\).toString\(\).trim\(\) || '#8be9fd';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9        const gradient = ctx.createLinearGradient\(0, 0, size.width, size.height\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10        gradient.addColorStop\(0, 'rgba\(255,255,255,0\)'\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11        gradient.addColorStop\(0.22, accent\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12        gradient.addColorStop\(0.45, 'rgba\(255,255,255,0.82\)'\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13        gradient.addColorStop\(0.68, '#7df7ff'\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14        gradient.addColorStop\(1, 'rgba\(255,255,255,0\)'\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16        ctx.globalAlpha = 0.28;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (17        ctx.fillStyle = gradient;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (18        ctx.fillRect\(0, 0, size.width, size.height\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (19  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (20        ctx.globalAlpha = 0.24;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (21        ctx.strokeStyle = 'rgba\(255,255,255,0.72\)';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (22        ctx.lineWidth = 1;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (23        for \(let y = -size.height; y < size.height * 2; y += 14\) {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (24          ctx.beginPath\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (25          ctx.moveTo\(-20, y\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (26          ctx.bezierCurveTo\(size.width * 0.28, y + 24, size.width * 0.66, y - 24, size.width + 20, y +) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm (     18\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm (27          ctx.stroke\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm (28        }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm (29      }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm (30    }\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm (31  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm (32  ) Tj
+ET
+endstream
+endobj
+33 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 10 de 45) Tj ET
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [32 0 R 33 0 R] >>
+endobj
+35 0 obj
+<< /Length 599 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/app.config.ts) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm (1  import { ApplicationConfig, provideBrowserGlobalErrorListeners } from '@angular/core';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm (2  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm (3  export const appConfig: ApplicationConfig = {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm (4    providers: [) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm (5      provideBrowserGlobalErrorListeners\(\),) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm (6      ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm (7    ]) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm (8  };) Tj
+ET
+endstream
+endobj
+36 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 11 de 45) Tj ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [35 0 R 36 0 R] >>
+endobj
+38 0 obj
+<< /Length 197 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/app.html) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm (1  <app-arena></app-arena>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm (2  <app-fx-layer></app-fx-layer>) Tj
+ET
+endstream
+endobj
+39 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 12 de 45) Tj ET
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [38 0 R 39 0 R] >>
+endobj
+41 0 obj
+<< /Length 275 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/app.scss) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm (1  :host {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm (2    display: block;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm (3    min-height: 100dvh;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm (4  }) Tj
+ET
+endstream
+endobj
+42 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 13 de 45) Tj ET
+endstream
+endobj
+43 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [41 0 R 42 0 R] >>
+endobj
+44 0 obj
+<< /Length 1796 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/app.spec.ts) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  import { TestBed } from '@angular/core/testing';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2  import { App } from './app';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4  describe\('App', \(\) => {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5    beforeEach\(async \(\) => {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6      await TestBed.configureTestingModule\({) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7        imports: [App],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8      }\).compileComponents\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9    }\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11    it\('should create the app', \(\) => {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12      const fixture = TestBed.createComponent\(App\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13      const app = fixture.componentInstance;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14      expect\(app\).toBeTruthy\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15    }\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (17    it\('should render the arena', async \(\) => {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (18      const fixture = TestBed.createComponent\(App\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (19      fixture.detectChanges\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (20      await fixture.whenStable\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (21      const compiled = fixture.nativeElement as HTMLElement;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (22      expect\(compiled.querySelector\('app-arena'\)\).toBeTruthy\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (23    }\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (24  }\);) Tj
+ET
+endstream
+endobj
+45 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 14 de 45) Tj ET
+endstream
+endobj
+46 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [44 0 R 45 0 R] >>
+endobj
+47 0 obj
+<< /Length 870 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/app.ts) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  import { Component } from '@angular/core';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2  import { ArenaComponent } from './features/arena/arena.component';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3  import { FxLayerComponent } from './features/fx-layer/fx-layer.component';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5  @Component\({) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6    selector: 'app-root',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7    imports: [ArenaComponent, FxLayerComponent],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8    templateUrl: './app.html',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9    styleUrl: './app.scss') Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10  }\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11  export class App {}) Tj
+ET
+endstream
+endobj
+48 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 15 de 45) Tj ET
+endstream
+endobj
+49 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [47 0 R 48 0 R] >>
+endobj
+50 0 obj
+<< /Length 677 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/core/models/pokemon-card.model.ts) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  export interface PokemonCard {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2    id: string;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3    name: string;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4    hp: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5    types: string[];) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6    rarity: 'common' | 'rare' | 'ex';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7    imageUrl: string;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8    accent: string;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10  ) Tj
+ET
+endstream
+endobj
+51 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 16 de 45) Tj ET
+endstream
+endobj
+52 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [50 0 R 51 0 R] >>
+endobj
+53 0 obj
+<< /Length 2299 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/core/services/fx.service.ts) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  import { Injectable } from '@angular/core';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2  import { Subject } from 'rxjs';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4  export type FxEventType = 'damage' | 'heal' | 'draw';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6  export interface FxEvent {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7    type: FxEventType;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8    value?: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9    x: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10    y: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13  @Injectable\({ providedIn: 'root' }\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14  export class FxService {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15    private readonly eventsSubject = new Subject<FxEvent>\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16    readonly events$ = this.eventsSubject.asObservable\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (17  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (18    emit\(event: FxEvent\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (19      this.eventsSubject.next\(event\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (20    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (21  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (22    damage\(value: number, x: number, y: number\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (23      this.emit\({ type: 'damage', value, x, y }\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (24    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (25  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (26    heal\(value: number, x: number, y: number\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm (27      this.emit\({ type: 'heal', value, x, y }\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm (28    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm (29  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm (30    draw\(x: number, y: number\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm (31      this.emit\({ type: 'draw', x, y }\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm (32    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm (33  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.80 Tm (34  ) Tj
+ET
+endstream
+endobj
+54 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 17 de 45) Tj ET
+endstream
+endobj
+55 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [53 0 R 54 0 R] >>
+endobj
+56 0 obj
+<< /Length 4885 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/core/services/game.service.ts) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm (  1  import { computed, Injectable, signal } from '@angular/core';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm (  2  import { PokemonCard } from '../models/pokemon-card.model';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm (  3  import { FxService } from './fx.service';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm (  4  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm (  5  const STARTER_DECK: PokemonCard[] = [) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm (  6    {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm (  7      id: 'charizard-ex',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm (  8      name: 'Charizard ex',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm (  9      hp: 180,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm ( 10      types: ['Fire'],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm ( 11      rarity: 'ex',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm ( 12      imageUrl: ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (     'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (     artwork/6.png',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm ( 13      accent: '#ff6a3d') Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm ( 14    },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm ( 15    {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm ( 16      id: 'blastoise',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm ( 17      name: 'Blastoise',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm ( 18      hp: 160,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm ( 19      types: ['Water'],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm ( 20      rarity: 'rare',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm ( 21      imageUrl: ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (     'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (     artwork/9.png',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm ( 22      accent: '#47a3ff') Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm ( 23    },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm ( 24    {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm ( 25      id: 'venusaur',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm ( 26      name: 'Venusaur',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm ( 27      hp: 170,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm ( 28      types: ['Grass'],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm ( 29      rarity: 'rare',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.80 Tm ( 30      imageUrl: ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.40 Tm (     'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-) Tj
+/F2 8 Tf
+1 0 0 1 42.00 385.00 Tm (     artwork/3.png',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 375.60 Tm ( 31      accent: '#55d88a') Tj
+/F2 8 Tf
+1 0 0 1 42.00 366.20 Tm ( 32    },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 356.80 Tm ( 33    {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 347.40 Tm ( 34      id: 'pikachu',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 338.00 Tm ( 35      name: 'Pikachu',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 328.60 Tm ( 36      hp: 90,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 319.20 Tm ( 37      types: ['Lightning'],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 309.80 Tm ( 38      rarity: 'common',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 300.40 Tm ( 39      imageUrl: ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 291.00 Tm (     'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-) Tj
+/F2 8 Tf
+1 0 0 1 42.00 281.60 Tm (     artwork/25.png',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 272.20 Tm ( 40      accent: '#ffd84d') Tj
+/F2 8 Tf
+1 0 0 1 42.00 262.80 Tm ( 41    },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 253.40 Tm ( 42    {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 244.00 Tm ( 43      id: 'mewtwo',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 234.60 Tm ( 44      name: 'Mewtwo',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 225.20 Tm ( 45      hp: 160,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 215.80 Tm ( 46      types: ['Psychic'],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 206.40 Tm ( 47      rarity: 'ex',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 197.00 Tm ( 48      imageUrl: ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 187.60 Tm (     'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-) Tj
+/F2 8 Tf
+1 0 0 1 42.00 178.20 Tm (     artwork/150.png',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 168.80 Tm ( 49      accent: '#c28cff') Tj
+/F2 8 Tf
+1 0 0 1 42.00 159.40 Tm ( 50    },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 150.00 Tm ( 51    {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 140.60 Tm ( 52      id: 'lucario',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 131.20 Tm ( 53      name: 'Lucario',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 121.80 Tm ( 54      hp: 130,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 112.40 Tm ( 55      types: ['Fighting'],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 103.00 Tm ( 56      rarity: 'rare',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 93.60 Tm ( 57      imageUrl: ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 84.20 Tm (     'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-) Tj
+/F2 8 Tf
+1 0 0 1 42.00 74.80 Tm (     artwork/448.png',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 65.40 Tm ( 58      accent: '#6da6ff') Tj
+/F2 8 Tf
+1 0 0 1 42.00 56.00 Tm ( 59    },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 46.60 Tm ( 60    {) Tj
+ET
+endstream
+endobj
+57 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 18 de 45) Tj ET
+endstream
+endobj
+58 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [56 0 R 57 0 R] >>
+endobj
+59 0 obj
+<< /Length 5175 >>
+stream
+BT
+/F2 8 Tf
+1 0 0 1 42.00 742.00 Tm ( 61      id: 'gengar',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 732.60 Tm ( 62      name: 'Gengar',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 723.20 Tm ( 63      hp: 140,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 713.80 Tm ( 64      types: ['Ghost'],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.40 Tm ( 65      rarity: 'rare',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.00 Tm ( 66      imageUrl: ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.60 Tm (     'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.20 Tm (     artwork/94.png',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 666.80 Tm ( 67      accent: '#9b67ff') Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.40 Tm ( 68    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.00 Tm ( 69  ];) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.60 Tm ( 70  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.20 Tm ( 71  @Injectable\({ providedIn: 'root' }\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 619.80 Tm ( 72  export class GameService {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.40 Tm ( 73    readonly deck = signal<PokemonCard[]>\(STARTER_DECK.slice\(4\)\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.00 Tm ( 74    readonly hand = signal<PokemonCard[]>\(STARTER_DECK.slice\(0, 4\)\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.60 Tm ( 75    readonly activePokemon = signal<PokemonCard>\(STARTER_DECK[0]\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.20 Tm ( 76    readonly discard = signal<PokemonCard[]>\([]\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 572.80 Tm ( 77  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.40 Tm ( 78    readonly deckCount = computed\(\(\) => this.deck\(\).length\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.00 Tm ( 79    readonly handCount = computed\(\(\) => this.hand\(\).length\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.60 Tm ( 80  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.20 Tm ( 81    constructor\(private readonly fx: FxService\) {}) Tj
+/F2 8 Tf
+1 0 0 1 42.00 525.80 Tm ( 82  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.40 Tm ( 83    drawCard\(origin?: { x: number; y: number }\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.00 Tm ( 84      const [nextCard, ...remainingDeck] = this.deck\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.60 Tm ( 85      if \(!nextCard || this.hand\(\).length >= 7\) {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.20 Tm ( 86        return;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 478.80 Tm ( 87      }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.40 Tm ( 88  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.00 Tm ( 89      this.deck.set\(remainingDeck\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.60 Tm ( 90      this.hand.update\(\(hand\) => [...hand, nextCard]\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.20 Tm ( 91      this.fx.draw\(origin?.x ?? window.innerWidth * 0.5, origin?.y ?? window.innerHeight * 0.72\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 431.80 Tm ( 92    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.40 Tm ( 93  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.00 Tm ( 94    setActivePokemon\(card: PokemonCard, origin?: { x: number; y: number }\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.60 Tm ( 95      this.activePokemon.set\(card\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.20 Tm ( 96      this.hand.update\(\(hand\) => hand.filter\(\(item\) => item.id !== card.id\)\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 384.80 Tm ( 97      this.fx.emit\({) Tj
+/F2 8 Tf
+1 0 0 1 42.00 375.40 Tm ( 98        type: 'draw',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 366.00 Tm ( 99        x: origin?.x ?? window.innerWidth * 0.5,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 356.60 Tm (100        y: origin?.y ?? window.innerHeight * 0.64) Tj
+/F2 8 Tf
+1 0 0 1 42.00 347.20 Tm (101      }\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 337.80 Tm (102    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 328.40 Tm (103  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 319.00 Tm (104    damageActive\(value = 30, origin?: { x: number; y: number }\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 309.60 Tm (105      const current = this.activePokemon\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 300.20 Tm (106      this.activePokemon.set\({ ...current, hp: Math.max\(0, current.hp - value\) }\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 290.80 Tm (107      this.fx.damage\(value, origin?.x ?? window.innerWidth * 0.5, origin?.y ?? window.innerHeight * ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 281.40 Tm (     0.34\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 272.00 Tm (108    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 262.60 Tm (109  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 253.20 Tm (110    healActive\(value = 20, origin?: { x: number; y: number }\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 243.80 Tm (111      const current = this.activePokemon\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 234.40 Tm (112      this.activePokemon.set\({ ...current, hp: current.hp + value }\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 225.00 Tm (113      this.fx.heal\(value, origin?.x ?? window.innerWidth * 0.5, origin?.y ?? window.innerHeight * ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 215.60 Tm (     0.34\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 206.20 Tm (114    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 196.80 Tm (115  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 187.40 Tm (116    reset\(\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 178.00 Tm (117      this.deck.set\(STARTER_DECK.slice\(4\)\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 168.60 Tm (118      this.hand.set\(STARTER_DECK.slice\(0, 4\)\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 159.20 Tm (119      this.activePokemon.set\(STARTER_DECK[0]\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 149.80 Tm (120      this.discard.set\([]\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 140.40 Tm (121    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 131.00 Tm (122  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 121.60 Tm (123  ) Tj
+ET
+endstream
+endobj
+60 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 19 de 45) Tj ET
+endstream
+endobj
+61 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [59 0 R 60 0 R] >>
+endobj
+62 0 obj
+<< /Length 2676 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/core/services/hand-layout.service.ts) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  import { Injectable } from '@angular/core';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3  export interface HandCardTransform {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4    x: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5    y: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6    angle: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7    zIndex: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10  @Injectable\({ providedIn: 'root' }\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11  export class HandLayoutService {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12    getTransform\(index: number, total: number\): HandCardTransform {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13      if \(total <= 1\) {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14        return { x: 0, y: 0, angle: 0, zIndex: 10 };) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15      }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (17      const center = \(total - 1\) / 2;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (18      const normalized = \(index - center\) / Math.max\(center, 1\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (19      const spread = Math.min\(76, 36 + total * 8\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (20      const radius = Math.max\(360, 460 - total * 10\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (21      const theta = normalized * 0.42;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (22  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (23      return {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (24        x: Math.sin\(theta\) * spread,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (25        y: Math.cos\(theta\) * radius - radius + Math.abs\(normalized\) * 18,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (26        angle: normalized * 18,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm (27        zIndex: Math.round\(100 - Math.abs\(normalized\) * 10 + index\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm (28      };) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm (29    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm (30  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm (31    toCssTransform\(index: number, total: number\): string {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm (32      const transform = this.getTransform\(index, total\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm (33      return `translate3d\(${transform.x}px, ${transform.y}px, 0\) rotate\(${transform.angle}deg\)`;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.80 Tm (34    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.40 Tm (35  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 385.00 Tm (36  ) Tj
+ET
+endstream
+endobj
+63 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 20 de 45) Tj ET
+endstream
+endobj
+64 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [62 0 R 63 0 R] >>
+endobj
+65 0 obj
+<< /Length 1968 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/features/arena/arena.component.html) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  <main class="arena-shell">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2    <section class="opponent-zone">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3      <div class="opponent-card"></div>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4      <div class="opponent-card is-raised"></div>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5      <div class="opponent-card"></div>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6    </section>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8    <section class="battlefield">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9      <div class="bench-line"></div>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11      <div class="active-slot">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12        <app-card [card]="game.activePokemon\(\)" [active]="true"></app-card>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13      </div>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15      <div class="controls">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16        <button type="button" \(click\)="game.damageActive\(30, { x: $event.clientX, y: $event.clientY ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (    }\)">Damage 30</button>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (17        <button type="button" \(click\)="game.healActive\(20, { x: $event.clientX, y: $event.clientY ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (    }\)">Heal 20</button>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (18        <button type="button" \(click\)="game.reset\(\)">Reset</button>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (19      </div>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (20    </section>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (21  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (22    <app-hand></app-hand>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (23  </main>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (24  ) Tj
+ET
+endstream
+endobj
+66 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 21 de 45) Tj ET
+endstream
+endobj
+67 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [65 0 R 66 0 R] >>
+endobj
+68 0 obj
+<< /Length 4968 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/features/arena/arena.component.scss) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm (  1  .arena-shell {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm (  2    background:) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm (  3      radial-gradient\(circle at 50% 18%, rgb\(84 156 255 / 0.28\), transparent 26rem\),) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm (  4      radial-gradient\(circle at 18% 70%, rgb\(255 187 91 / 0.16\), transparent 18rem\),) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm (  5      linear-gradient\(160deg, #101827 0%, #182231 44%, #101218 100%\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm (  6    color: white;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm (  7    min-height: 100dvh;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm (  8    overflow: hidden;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm (  9    position: relative;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm ( 10  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm ( 11  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm ( 12  .arena-shell::before {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm ( 13    background:) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm ( 14      linear-gradient\(rgb\(255 255 255 / 0.055\) 1px, transparent 1px\),) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm ( 15      linear-gradient\(90deg, rgb\(255 255 255 / 0.045\) 1px, transparent 1px\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm ( 16    background-size: 64px 64px;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm ( 17    content: '';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm ( 18    inset: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm ( 19    mask-image: linear-gradient\(to bottom, transparent, black 18%, black 82%, transparent\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm ( 20    position: absolute;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm ( 21  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm ( 22  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm ( 23  .opponent-zone {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm ( 24    display: flex;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm ( 25    gap: 1rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm ( 26    justify-content: center;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm ( 27    padding-top: 1.25rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm ( 28    position: relative;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm ( 29    z-index: 1;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm ( 30  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm ( 31  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm ( 32  .opponent-card {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm ( 33    aspect-ratio: 0.714;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.80 Tm ( 34    background: linear-gradient\(145deg, #2a3345, #151b27\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.40 Tm ( 35    border: 1px solid rgb\(255 255 255 / 0.14\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 385.00 Tm ( 36    border-radius: 12px;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 375.60 Tm ( 37    box-shadow: 0 16px 28px rgb\(0 0 0 / 0.28\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 366.20 Tm ( 38    width: clamp\(3.3rem, 6vw, 4.6rem\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 356.80 Tm ( 39  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 347.40 Tm ( 40  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 338.00 Tm ( 41  .opponent-card.is-raised {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 328.60 Tm ( 42    transform: translateY\(0.8rem\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 319.20 Tm ( 43  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 309.80 Tm ( 44  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 300.40 Tm ( 45  .battlefield {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 291.00 Tm ( 46    align-items: center;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 281.60 Tm ( 47    display: grid;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 272.20 Tm ( 48    inset: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 262.80 Tm ( 49    justify-items: center;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 253.40 Tm ( 50    padding-bottom: 9rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 244.00 Tm ( 51    padding-top: 4rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 234.60 Tm ( 52    position: absolute;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 225.20 Tm ( 53    z-index: 2;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 215.80 Tm ( 54  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 206.40 Tm ( 55  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 197.00 Tm ( 56  .bench-line {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 187.60 Tm ( 57    background: radial-gradient\(ellipse, rgb\(125 211 252 / 0.2\), transparent 70%\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 178.20 Tm ( 58    border: 1px solid rgb\(255 255 255 / 0.12\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 168.80 Tm ( 59    border-radius: 50%;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 159.40 Tm ( 60    height: clamp\(13rem, 34vw, 23rem\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 150.00 Tm ( 61    position: absolute;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 140.60 Tm ( 62    top: 28%;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 131.20 Tm ( 63    width: min\(74vw, 48rem\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 121.80 Tm ( 64  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 112.40 Tm ( 65  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 103.00 Tm ( 66  .active-slot {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 93.60 Tm ( 67    position: relative;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 84.20 Tm ( 68    z-index: 2;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 74.80 Tm ( 69  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 65.40 Tm ( 70  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 56.00 Tm ( 71  .active-slot::before {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 46.60 Tm ( 72    background: radial-gradient\(ellipse, rgb\(255 255 255 / 0.36\), transparent 62%\);) Tj
+ET
+endstream
+endobj
+69 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 22 de 45) Tj ET
+endstream
+endobj
+70 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [68 0 R 69 0 R] >>
+endobj
+71 0 obj
+<< /Length 2729 >>
+stream
+BT
+/F2 8 Tf
+1 0 0 1 42.00 742.00 Tm ( 73    bottom: -2.1rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 732.60 Tm ( 74    content: '';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 723.20 Tm ( 75    filter: blur\(8px\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 713.80 Tm ( 76    height: 4rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.40 Tm ( 77    left: 50%;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.00 Tm ( 78    position: absolute;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.60 Tm ( 79    transform: translateX\(-50%\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.20 Tm ( 80    width: 130%;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 666.80 Tm ( 81  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.40 Tm ( 82  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.00 Tm ( 83  .controls {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.60 Tm ( 84    bottom: 11rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.20 Tm ( 85    display: flex;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 619.80 Tm ( 86    flex-wrap: wrap;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.40 Tm ( 87    gap: 0.5rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.00 Tm ( 88    justify-content: center;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.60 Tm ( 89    position: fixed;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.20 Tm ( 90    z-index: 30;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 572.80 Tm ( 91  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.40 Tm ( 92  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.00 Tm ( 93  .controls button {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.60 Tm ( 94    background: rgb\(255 255 255 / 0.1\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.20 Tm ( 95    border: 1px solid rgb\(255 255 255 / 0.18\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 525.80 Tm ( 96    border-radius: 8px;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.40 Tm ( 97    color: white;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.00 Tm ( 98    cursor: pointer;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.60 Tm ( 99    font: inherit;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.20 Tm (100    font-size: 0.82rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 478.80 Tm (101    font-weight: 800;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.40 Tm (102    padding: 0.65rem 0.85rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.00 Tm (103  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.60 Tm (104  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.20 Tm (105  .controls button:hover {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 431.80 Tm (106    background: rgb\(255 255 255 / 0.18\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.40 Tm (107  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.00 Tm (108  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.60 Tm (109  @media \(max-width: 720px\) {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.20 Tm (110    .battlefield {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 384.80 Tm (111      padding-bottom: 7.5rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 375.40 Tm (112    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 366.00 Tm (113  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 356.60 Tm (114    .controls {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 347.20 Tm (115      bottom: 8.5rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 337.80 Tm (116    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 328.40 Tm (117  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 319.00 Tm (118  ) Tj
+ET
+endstream
+endobj
+72 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 23 de 45) Tj ET
+endstream
+endobj
+73 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [71 0 R 72 0 R] >>
+endobj
+74 0 obj
+<< /Length 1180 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/features/arena/arena.component.ts) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  import { Component } from '@angular/core';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2  import { GameService } from '../../core/services/game.service';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3  import { CardComponent } from '../card/card.component';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4  import { HandComponent } from '../hand/hand.component';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6  @Component\({) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7    selector: 'app-arena',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8    imports: [CardComponent, HandComponent],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9    templateUrl: './arena.component.html',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10    styleUrl: './arena.component.scss') Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11  }\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12  export class ArenaComponent {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13    constructor\(readonly game: GameService\) {}) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15  ) Tj
+ET
+endstream
+endobj
+75 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 24 de 45) Tj ET
+endstream
+endobj
+76 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [74 0 R 75 0 R] >>
+endobj
+77 0 obj
+<< /Length 2499 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/features/card/card.component.html) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  <article) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2    appTilt) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3    [strength]="compact ? 7 : 12") Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4    class="pokemon-card") Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5    [class.is-active]="active") Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6    [class.is-compact]="compact") Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7    [style.--foil-accent]="card.accent") Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8  >) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9    <div class="card-surface">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10      <div class="foil-layer"></div>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11      <div class="shine-layer"></div>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13      <header class="card-header">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14        <span class="card-name">{{ card.name }}</span>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15        <span class="card-hp">{{ card.hp }} HP</span>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16      </header>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (17  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (18      <div class="art-frame">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (19        <img) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (20          [src]="card.imageUrl") Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (21          [alt]="card.name") Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (22          loading="lazy") Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (23          \(load\)="imageLoaded = true") Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (24          [class.is-loaded]="imageLoaded") Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (25        />) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (26      </div>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm (27  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm (28      <footer class="card-footer">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm (29        <div class="type-row">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm (30          <span *ngFor="let type of card.types" class="type-chip">{{ type }}</span>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm (31        </div>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm (32        <span class="rarity">{{ card.rarity | uppercase }}</span>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm (33      </footer>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.80 Tm (34    </div>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.40 Tm (35  </article>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 385.00 Tm (36  ) Tj
+ET
+endstream
+endobj
+78 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 25 de 45) Tj ET
+endstream
+endobj
+79 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [77 0 R 78 0 R] >>
+endobj
+80 0 obj
+<< /Length 5065 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/features/card/card.component.scss) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm (  1  :host {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm (  2    --card-accent: #8be9fd;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm (  3    display: block;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm (  4  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm (  5  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm (  6  .pokemon-card {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm (  7    width: clamp\(8.5rem, 16vw, 13rem\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm (  8    aspect-ratio: 0.714;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm (  9    border: 1px solid color-mix\(in srgb, var\(--card-accent\), white 20%\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm ( 10    border-radius: 16px;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm ( 11    background: #10151f;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm ( 12    box-shadow: 0 18px 38px rgb\(0 0 0 / 0.36\), 0 0 28px color-mix\(in srgb, var\(--card-accent\), ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (     transparent 72%\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm ( 13    cursor: pointer;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm ( 14    overflow: hidden;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm ( 15    position: relative;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm ( 16    transform-style: preserve-3d;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm ( 17    transition: transform 160ms ease, box-shadow 180ms ease, border-color 180ms ease;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm ( 18    will-change: transform;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm ( 19  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm ( 20  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm ( 21  .pokemon-card:hover,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm ( 22  .pokemon-card.is-active {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm ( 23    border-color: color-mix\(in srgb, var\(--card-accent\), white 52%\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm ( 24    box-shadow: 0 24px 56px rgb\(0 0 0 / 0.42\), 0 0 34px color-mix\(in srgb, var\(--card-accent\), ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (     transparent 48%\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm ( 25  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm ( 26  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm ( 27  .pokemon-card.is-compact {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm ( 28    width: clamp\(6.8rem, 12vw, 10rem\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm ( 29  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm ( 30  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm ( 31  .card-surface {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.80 Tm ( 32    position: absolute;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.40 Tm ( 33    inset: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 385.00 Tm ( 34    display: grid;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 375.60 Tm ( 35    grid-template-rows: auto 1fr auto;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 366.20 Tm ( 36    gap: 0.55rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 356.80 Tm ( 37    padding: 0.7rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 347.40 Tm ( 38    background:) Tj
+/F2 8 Tf
+1 0 0 1 42.00 338.00 Tm ( 39      radial-gradient\(circle at var\(--mouse-x, 50%\) var\(--mouse-y, 28%\), color-mix\(in srgb, ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 328.60 Tm (     var\(--card-accent\), white 45%\), transparent 34%\),) Tj
+/F2 8 Tf
+1 0 0 1 42.00 319.20 Tm ( 40      linear-gradient\(145deg, #263041 0%, #111827 48%, #060910 100%\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 309.80 Tm ( 41    isolation: isolate;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 300.40 Tm ( 42  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 291.00 Tm ( 43  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 281.60 Tm ( 44  .foil-layer,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 272.20 Tm ( 45  .shine-layer {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 262.80 Tm ( 46    border-radius: inherit;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 253.40 Tm ( 47    inset: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 244.00 Tm ( 48    pointer-events: none;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 234.60 Tm ( 49    position: absolute;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 225.20 Tm ( 50  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 215.80 Tm ( 51  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 206.40 Tm ( 52  .foil-layer {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 197.00 Tm ( 53    background:) Tj
+/F2 8 Tf
+1 0 0 1 42.00 187.60 Tm ( 54      paint\(foil-shine\),) Tj
+/F2 8 Tf
+1 0 0 1 42.00 178.20 Tm ( 55      repeating-linear-gradient\(112deg, rgb\(255 255 255 / 0.08\) 0 1px, transparent 1px 10px\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 168.80 Tm ( 56    mix-blend-mode: screen;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 159.40 Tm ( 57    opacity: 0.78;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 150.00 Tm ( 58    transform: translateZ\(1px\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 140.60 Tm ( 59  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 131.20 Tm ( 60  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 121.80 Tm ( 61  .shine-layer {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 112.40 Tm ( 62    background: radial-gradient\(circle at var\(--mouse-x, 50%\) var\(--mouse-y, 50%\), rgb\(255 255 255 / ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 103.00 Tm (     0.62\), transparent 28%\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 93.60 Tm ( 63    mix-blend-mode: overlay;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 84.20 Tm ( 64    opacity: 0.6;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 74.80 Tm ( 65  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 65.40 Tm ( 66  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 56.00 Tm ( 67  @supports not \(background: paint\(foil-shine\)\) {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 46.60 Tm ( 68    .foil-layer {) Tj
+ET
+endstream
+endobj
+81 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 26 de 45) Tj ET
+endstream
+endobj
+82 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [80 0 R 81 0 R] >>
+endobj
+83 0 obj
+<< /Length 4870 >>
+stream
+BT
+/F2 8 Tf
+1 0 0 1 42.00 742.00 Tm ( 69      animation: foilSweep 3s linear infinite;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 732.60 Tm ( 70      background: linear-gradient\(110deg, transparent 0%, color-mix\(in srgb, var\(--card-accent\), ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 723.20 Tm (     white 50%\) 36%, rgb\(255 255 255 / 0.85\) 48%, transparent 64%\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 713.80 Tm ( 71      background-size: 220% 100%;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.40 Tm ( 72    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.00 Tm ( 73  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.60 Tm ( 74  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.20 Tm ( 75  .card-header,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 666.80 Tm ( 76  .card-footer {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.40 Tm ( 77    align-items: center;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.00 Tm ( 78    display: flex;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.60 Tm ( 79    justify-content: space-between;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.20 Tm ( 80    position: relative;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 619.80 Tm ( 81    z-index: 1;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.40 Tm ( 82  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.00 Tm ( 83  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.60 Tm ( 84  .card-name {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.20 Tm ( 85    color: white;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 572.80 Tm ( 86    font-size: clamp\(0.78rem, 1.2vw, 0.98rem\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.40 Tm ( 87    font-weight: 800;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.00 Tm ( 88    overflow: hidden;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.60 Tm ( 89    text-overflow: ellipsis;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.20 Tm ( 90    text-shadow: 0 1px 2px rgb\(0 0 0 / 0.4\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 525.80 Tm ( 91    white-space: nowrap;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.40 Tm ( 92  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.00 Tm ( 93  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.60 Tm ( 94  .card-hp,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.20 Tm ( 95  .rarity {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 478.80 Tm ( 96    color: #fef3c7;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.40 Tm ( 97    font-size: 0.68rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.00 Tm ( 98    font-weight: 800;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.60 Tm ( 99    white-space: nowrap;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.20 Tm (100  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 431.80 Tm (101  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.40 Tm (102  .art-frame {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.00 Tm (103    align-items: center;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.60 Tm (104    align-self: stretch;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.20 Tm (105    background:) Tj
+/F2 8 Tf
+1 0 0 1 42.00 384.80 Tm (106      radial-gradient\(circle at 50% 38%, rgb\(255 255 255 / 0.22\), transparent 46%\),) Tj
+/F2 8 Tf
+1 0 0 1 42.00 375.40 Tm (107      color-mix\(in srgb, var\(--card-accent\), #0b1020 74%\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 366.00 Tm (108    border: 1px solid rgb\(255 255 255 / 0.22\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 356.60 Tm (109    border-radius: 12px;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 347.20 Tm (110    display: flex;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 337.80 Tm (111    justify-content: center;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 328.40 Tm (112    min-height: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 319.00 Tm (113    overflow: hidden;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 309.60 Tm (114    position: relative;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 300.20 Tm (115    z-index: 1;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 290.80 Tm (116  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 281.40 Tm (117  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 272.00 Tm (118  .art-frame img {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 262.60 Tm (119    filter: drop-shadow\(0 18px 14px rgb\(0 0 0 / 0.34\)\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 253.20 Tm (120    max-height: 94%;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 243.80 Tm (121    max-width: 94%;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 234.40 Tm (122    opacity: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 225.00 Tm (123    transform: translateY\(6px\) scale\(0.96\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 215.60 Tm (124    transition: opacity 240ms ease, transform 240ms ease;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 206.20 Tm (125  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 196.80 Tm (126  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 187.40 Tm (127  .art-frame img.is-loaded {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 178.00 Tm (128    opacity: 1;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 168.60 Tm (129    transform: translateY\(0\) scale\(1\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 159.20 Tm (130  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 149.80 Tm (131  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 140.40 Tm (132  .type-row {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 131.00 Tm (133    display: flex;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 121.60 Tm (134    flex-wrap: wrap;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 112.20 Tm (135    gap: 0.28rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 102.80 Tm (136    min-width: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 93.40 Tm (137  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 84.00 Tm (138  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 74.60 Tm (139  .type-chip {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 65.20 Tm (140    background: rgb\(255 255 255 / 0.14\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 55.80 Tm (141    border: 1px solid rgb\(255 255 255 / 0.2\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 46.40 Tm (142    border-radius: 999px;) Tj
+ET
+endstream
+endobj
+84 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 27 de 45) Tj ET
+endstream
+endobj
+85 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [83 0 R 84 0 R] >>
+endobj
+86 0 obj
+<< /Length 900 >>
+stream
+BT
+/F2 8 Tf
+1 0 0 1 42.00 742.00 Tm (143    color: #f8fafc;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 732.60 Tm (144    font-size: 0.64rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 723.20 Tm (145    font-weight: 700;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 713.80 Tm (146    padding: 0.16rem 0.4rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.40 Tm (147  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.00 Tm (148  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.60 Tm (149  @keyframes foilSweep {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.20 Tm (150    from {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 666.80 Tm (151      background-position: 150% 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.40 Tm (152    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.00 Tm (153  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.60 Tm (154    to {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.20 Tm (155      background-position: -80% 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 619.80 Tm (156    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.40 Tm (157  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.00 Tm (158  ) Tj
+ET
+endstream
+endobj
+87 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 28 de 45) Tj ET
+endstream
+endobj
+88 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [86 0 R 87 0 R] >>
+endobj
+89 0 obj
+<< /Length 2238 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/features/card/card.component.ts) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  import { CommonModule } from '@angular/common';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2  import { Component, HostBinding, Input, OnInit } from '@angular/core';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3  import { PokemonCard } from '../../core/models/pokemon-card.model';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4  import { TiltDirective } from '../../shared/directives/tilt.directive';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6  @Component\({) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7    selector: 'app-card',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8    imports: [CommonModule, TiltDirective],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9    templateUrl: './card.component.html',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10    styleUrl: './card.component.scss') Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11  }\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12  export class CardComponent implements OnInit {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13    @Input\({ required: true }\) card!: PokemonCard;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14    @Input\(\) active = false;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15    @Input\(\) compact = false;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (17    imageLoaded = false;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (18  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (19    @HostBinding\('style.--card-accent'\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (20    get accent\(\): string {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (21      return this.card?.accent ?? '#8be9fd';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (22    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (23  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (24    ngOnInit\(\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (25      const cssApi = CSS as typeof CSS & { paintWorklet?: { addModule\(path: string\): Promise<void> } ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (    };) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm (26      cssApi.paintWorklet?.addModule\('/foil-worklet.js'\).catch\(\(\) => undefined\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm (27    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm (28  }) Tj
+ET
+endstream
+endobj
+90 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 29 de 45) Tj ET
+endstream
+endobj
+91 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [89 0 R 90 0 R] >>
+endobj
+92 0 obj
+<< /Length 240 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/features/fx-layer/fx-layer.component.html) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm (1  <canvas #canvas class="fx-canvas" aria-hidden="true"></canvas>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm (2  ) Tj
+ET
+endstream
+endobj
+93 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 30 de 45) Tj ET
+endstream
+endobj
+94 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [92 0 R 93 0 R] >>
+endobj
+95 0 obj
+<< /Length 1619 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/features/fx-layer/fx-layer.component.scss) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  :host {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2    inset: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3    pointer-events: none;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4    position: fixed;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5    z-index: 100;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8  .fx-canvas {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9    display: block;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10    height: 100%;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11    width: 100%;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14  :host ::ng-deep .float-number {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15    font-size: clamp\(1.45rem, 3vw, 2.5rem\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16    font-weight: 950;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (17    left: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (18    line-height: 1;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (19    pointer-events: none;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (20    position: fixed;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (21    text-shadow: 0 3px 12px rgb\(0 0 0 / 0.42\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (22    top: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (23    transform: translate\(-50%, 0\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (24    white-space: nowrap;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (25  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (26  ) Tj
+ET
+endstream
+endobj
+96 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 31 de 45) Tj ET
+endstream
+endobj
+97 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [95 0 R 96 0 R] >>
+endobj
+98 0 obj
+<< /Length 5507 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/features/fx-layer/fx-layer.component.ts) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm (  1  import { CommonModule } from '@angular/common';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm (  2  import { AfterViewInit, Component, ElementRef, OnDestroy, ViewChild } from '@angular/core';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm (  3  import { Subscription } from 'rxjs';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm (  4  import { FxEvent, FxService } from '../../core/services/fx.service';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm (  5  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm (  6  interface Particle {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm (  7    x: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm (  8    y: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm (  9    vx: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm ( 10    vy: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm ( 11    life: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm ( 12    maxLife: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm ( 13    color: string;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm ( 14    size: number;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm ( 15  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm ( 16  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm ( 17  @Component\({) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm ( 18    selector: 'app-fx-layer',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm ( 19    imports: [CommonModule],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm ( 20    templateUrl: './fx-layer.component.html',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm ( 21    styleUrl: './fx-layer.component.scss') Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm ( 22  }\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm ( 23  export class FxLayerComponent implements AfterViewInit, OnDestroy {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm ( 24    @ViewChild\('canvas', { static: true }\) private readonly canvasRef!: ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (     ElementRef<HTMLCanvasElement>;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm ( 25  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm ( 26    private ctx!: CanvasRenderingContext2D;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm ( 27    private particles: Particle[] = [];) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm ( 28    private animationFrame = 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm ( 29    private subscription?: Subscription;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm ( 30    private gsap?: { to: \(target: Element, vars: Record<string, unknown>\) => void; fromTo: \(target: ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm (     Element, from: Record<string, unknown>, to: Record<string, unknown>\) => void };) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm ( 31  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.80 Tm ( 32    constructor\() Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.40 Tm ( 33      private readonly fx: FxService,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 385.00 Tm ( 34      private readonly host: ElementRef<HTMLElement>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 375.60 Tm ( 35    \) {}) Tj
+/F2 8 Tf
+1 0 0 1 42.00 366.20 Tm ( 36  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 356.80 Tm ( 37    async ngAfterViewInit\(\): Promise<void> {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 347.40 Tm ( 38      const context = this.canvasRef.nativeElement.getContext\('2d'\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 338.00 Tm ( 39      if \(!context\) {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 328.60 Tm ( 40        return;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 319.20 Tm ( 41      }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 309.80 Tm ( 42  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 300.40 Tm ( 43      this.ctx = context;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 291.00 Tm ( 44      this.resize\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 281.60 Tm ( 45      window.addEventListener\('resize', this.resize\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 272.20 Tm ( 46      this.subscription = this.fx.events$.subscribe\(\(event\) => this.play\(event\)\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 262.80 Tm ( 47      this.animationFrame = requestAnimationFrame\(\(\) => this.tick\(\)\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 253.40 Tm ( 48  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 244.00 Tm ( 49      try {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 234.60 Tm ( 50        const module = await import\('gsap'\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 225.20 Tm ( 51        this.gsap = module.gsap;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 215.80 Tm ( 52      } catch {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 206.40 Tm ( 53        this.gsap = undefined;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 197.00 Tm ( 54      }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 187.60 Tm ( 55    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 178.20 Tm ( 56  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 168.80 Tm ( 57    ngOnDestroy\(\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 159.40 Tm ( 58      window.removeEventListener\('resize', this.resize\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 150.00 Tm ( 59      this.subscription?.unsubscribe\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 140.60 Tm ( 60      cancelAnimationFrame\(this.animationFrame\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 131.20 Tm ( 61    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 121.80 Tm ( 62  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 112.40 Tm ( 63    private readonly resize = \(\): void => {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 103.00 Tm ( 64      const canvas = this.canvasRef.nativeElement;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 93.60 Tm ( 65      const ratio = window.devicePixelRatio || 1;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 84.20 Tm ( 66      canvas.width = Math.floor\(window.innerWidth * ratio\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 74.80 Tm ( 67      canvas.height = Math.floor\(window.innerHeight * ratio\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 65.40 Tm ( 68      canvas.style.width = `${window.innerWidth}px`;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 56.00 Tm ( 69      canvas.style.height = `${window.innerHeight}px`;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 46.60 Tm ( 70      this.ctx?.setTransform\(ratio, 0, 0, ratio, 0, 0\);) Tj
+ET
+endstream
+endobj
+99 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 32 de 45) Tj ET
+endstream
+endobj
+100 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [98 0 R 99 0 R] >>
+endobj
+101 0 obj
+<< /Length 5725 >>
+stream
+BT
+/F2 8 Tf
+1 0 0 1 42.00 742.00 Tm ( 71    };) Tj
+/F2 8 Tf
+1 0 0 1 42.00 732.60 Tm ( 72  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 723.20 Tm ( 73    private play\(event: FxEvent\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 713.80 Tm ( 74      const color = event.type === 'damage' ? '#ff5f6d' : event.type === 'heal' ? '#5dffae' : ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.40 Tm (     '#7dd3fc';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.00 Tm ( 75      this.spawnNumber\(event, color\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.60 Tm ( 76      this.spawnParticles\(event.x, event.y, color, event.type === 'draw' ? 18 : 28\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.20 Tm ( 77    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 666.80 Tm ( 78  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.40 Tm ( 79    private spawnNumber\(event: FxEvent, color: string\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.00 Tm ( 80      const element = document.createElement\('div'\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.60 Tm ( 81      element.className = `float-number ${event.type}`;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.20 Tm ( 82      element.textContent = event.type === 'draw' ? '+1' : `${event.type === 'heal' ? '+' : ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 619.80 Tm (     '-'}${event.value ?? 0}`;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.40 Tm ( 83      element.style.left = `${event.x}px`;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.00 Tm ( 84      element.style.top = `${event.y}px`;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.60 Tm ( 85      element.style.color = color;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.20 Tm ( 86      this.host.nativeElement.appendChild\(element\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 572.80 Tm ( 87  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.40 Tm ( 88      if \(this.gsap\) {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.00 Tm ( 89        this.gsap.fromTo\() Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.60 Tm ( 90          element,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.20 Tm ( 91          { y: 10, opacity: 0, scale: 0.7 },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 525.80 Tm ( 92          {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.40 Tm ( 93            y: -82,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.00 Tm ( 94            opacity: 1,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.60 Tm ( 95            scale: 1.18,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.20 Tm ( 96            duration: 0.82,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 478.80 Tm ( 97            ease: 'power3.out',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.40 Tm ( 98            onComplete: \(\) => this.gsap?.to\(element, { opacity: 0, duration: 0.18, onComplete: \(\) => ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.00 Tm (     element.remove\(\) }\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.60 Tm ( 99          }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.20 Tm (100        \);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 431.80 Tm (101        return;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.40 Tm (102      }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.00 Tm (103  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.60 Tm (104      element.animate\() Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.20 Tm (105        [) Tj
+/F2 8 Tf
+1 0 0 1 42.00 384.80 Tm (106          { transform: 'translate\(-50%, 10px\) scale\(0.72\)', opacity: 0 },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 375.40 Tm (107          { transform: 'translate\(-50%, -72px\) scale\(1.14\)', opacity: 1 },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 366.00 Tm (108          { transform: 'translate\(-50%, -88px\) scale\(1\)', opacity: 0 }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 356.60 Tm (109        ],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 347.20 Tm (110        { duration: 900, easing: 'cubic-bezier\(.2,.9,.2,1\)', fill: 'forwards' }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 337.80 Tm (111      \).finished.finally\(\(\) => element.remove\(\)\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 328.40 Tm (112    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 319.00 Tm (113  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 309.60 Tm (114    private spawnParticles\(x: number, y: number, color: string, count: number\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 300.20 Tm (115      for \(let i = 0; i < count; i += 1\) {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 290.80 Tm (116        const angle = Math.random\(\) * Math.PI * 2;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 281.40 Tm (117        const speed = 1.2 + Math.random\(\) * 4.2;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 272.00 Tm (118        this.particles.push\({) Tj
+/F2 8 Tf
+1 0 0 1 42.00 262.60 Tm (119          x,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 253.20 Tm (120          y,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 243.80 Tm (121          vx: Math.cos\(angle\) * speed,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 234.40 Tm (122          vy: Math.sin\(angle\) * speed - 1.5,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 225.00 Tm (123          life: 0,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 215.60 Tm (124          maxLife: 34 + Math.random\(\) * 24,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 206.20 Tm (125          color,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 196.80 Tm (126          size: 2 + Math.random\(\) * 4) Tj
+/F2 8 Tf
+1 0 0 1 42.00 187.40 Tm (127        }\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 178.00 Tm (128      }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 168.60 Tm (129    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 159.20 Tm (130  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 149.80 Tm (131    private tick\(\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 140.40 Tm (132      this.ctx.clearRect\(0, 0, window.innerWidth, window.innerHeight\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 131.00 Tm (133      this.particles = this.particles.filter\(\(particle\) => particle.life < particle.maxLife\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 121.60 Tm (134  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 112.20 Tm (135      for \(const particle of this.particles\) {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 102.80 Tm (136        particle.life += 1;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 93.40 Tm (137        particle.x += particle.vx;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 84.00 Tm (138        particle.y += particle.vy;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 74.60 Tm (139        particle.vy += 0.08;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 65.20 Tm (140  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 55.80 Tm (141        const alpha = 1 - particle.life / particle.maxLife;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 46.40 Tm (142        this.ctx.globalAlpha = alpha;) Tj
+ET
+endstream
+endobj
+102 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 33 de 45) Tj ET
+endstream
+endobj
+103 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [101 0 R 102 0 R] >>
+endobj
+104 0 obj
+<< /Length 779 >>
+stream
+BT
+/F2 8 Tf
+1 0 0 1 42.00 742.00 Tm (143        this.ctx.fillStyle = particle.color;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 732.60 Tm (144        this.ctx.beginPath\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 723.20 Tm (145        this.ctx.arc\(particle.x, particle.y, particle.size * alpha, 0, Math.PI * 2\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 713.80 Tm (146        this.ctx.fill\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.40 Tm (147      }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.00 Tm (148  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.60 Tm (149      this.ctx.globalAlpha = 1;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.20 Tm (150      this.animationFrame = requestAnimationFrame\(\(\) => this.tick\(\)\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 666.80 Tm (151    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.40 Tm (152  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.00 Tm (153  ) Tj
+ET
+endstream
+endobj
+105 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 34 de 45) Tj ET
+endstream
+endobj
+106 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [104 0 R 105 0 R] >>
+endobj
+107 0 obj
+<< /Length 1652 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/features/hand/hand.component.html) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  <section class="hand-zone" aria-label="Player hand">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2    <button class="deck-button" type="button" \(click\)="game.drawCard\({ x: $event.clientX, y: ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm (    $event.clientY }\)">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 3      <span>{{ game.deckCount\(\) }}</span>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 4      Deck) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 5    </button>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 6  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 7    <div class="hand-stage">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 8      <button) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm ( 9        *ngFor="let card of game.hand\(\); let i = index") Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (10        class="hand-card") Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (11        type="button") Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (12        [style.transform]="cardTransform\(i\)") Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (13        [style.z-index]="cardZIndex\(i\)") Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (14        \(click\)="play\(card, $event\)") Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (15        [attr.aria-label]="'Play ' + card.name") Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (16      >) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (17        <app-card [card]="card" [compact]="true"></app-card>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (18      </button>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (19    </div>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (20  </section>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (21  ) Tj
+ET
+endstream
+endobj
+108 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 35 de 45) Tj ET
+endstream
+endobj
+109 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [107 0 R 108 0 R] >>
+endobj
+110 0 obj
+<< /Length 4579 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/features/hand/hand.component.scss) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  .hand-zone {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2    align-items: flex-end;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3    bottom: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4    display: grid;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5    grid-template-columns: 6.5rem minmax\(0, 1fr\) 6.5rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6    left: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7    min-height: 15.5rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8    padding: 0 1rem 1.1rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9    pointer-events: none;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10    position: fixed;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11    right: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12    z-index: 20;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15  .deck-button {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16    align-items: center;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (17    align-self: end;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (18    background: linear-gradient\(145deg, #232b3a, #121722\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (19    border: 1px solid rgb\(255 255 255 / 0.16\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (20    border-radius: 10px;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (21    box-shadow: 0 14px 28px rgb\(0 0 0 / 0.36\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (22    color: #dbeafe;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (23    display: flex;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (24    flex-direction: column;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (25    font: inherit;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (26    font-size: 0.72rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm (27    font-weight: 800;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm (28    gap: 0.2rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm (29    height: 7.4rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm (30    justify-content: center;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm (31    letter-spacing: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm (32    pointer-events: auto;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm (33    text-transform: uppercase;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.80 Tm (34    width: 5.2rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.40 Tm (35  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 385.00 Tm (36  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 375.60 Tm (37  .deck-button span {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 366.20 Tm (38    color: white;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 356.80 Tm (39    font-size: 1.5rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 347.40 Tm (40  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 338.00 Tm (41  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 328.60 Tm (42  .hand-stage {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 319.20 Tm (43    align-items: end;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 309.80 Tm (44    display: flex;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 300.40 Tm (45    height: 13.5rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 291.00 Tm (46    justify-content: center;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 281.60 Tm (47    min-width: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 272.20 Tm (48    pointer-events: none;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 262.80 Tm (49    position: relative;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 253.40 Tm (50  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 244.00 Tm (51  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 234.60 Tm (52  .hand-card {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 225.20 Tm (53    background: transparent;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 215.80 Tm (54    border: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 206.40 Tm (55    bottom: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 197.00 Tm (56    display: block;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 187.60 Tm (57    left: calc\(50% - clamp\(3.4rem, 6vw, 5rem\)\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 178.20 Tm (58    padding: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 168.80 Tm (59    pointer-events: auto;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 159.40 Tm (60    position: absolute;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 150.00 Tm (61    transform-origin: center 92%;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 140.60 Tm (62    transition: transform 260ms cubic-bezier\(0.2, 0.9, 0.2, 1.2\), filter 180ms ease;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 131.20 Tm (63    will-change: transform;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 121.80 Tm (64  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 112.40 Tm (65  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 103.00 Tm (66  .hand-card:hover {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 93.60 Tm (67    filter: brightness\(1.1\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 84.20 Tm (68  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 74.80 Tm (69  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 65.40 Tm (70  @media \(max-width: 720px\) {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 56.00 Tm (71    .hand-zone {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 46.60 Tm (72      grid-template-columns: 4.8rem minmax\(0, 1fr\);) Tj
+ET
+endstream
+endobj
+111 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 36 de 45) Tj ET
+endstream
+endobj
+112 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [110 0 R 111 0 R] >>
+endobj
+113 0 obj
+<< /Length 502 >>
+stream
+BT
+/F2 8 Tf
+1 0 0 1 42.00 742.00 Tm (73      min-height: 12rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 732.60 Tm (74      padding-inline: 0.55rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 723.20 Tm (75    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 713.80 Tm (76  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.40 Tm (77    .deck-button {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.00 Tm (78      height: 6.2rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.60 Tm (79      width: 4.4rem;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.20 Tm (80    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 666.80 Tm (81  }) Tj
+ET
+endstream
+endobj
+114 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 37 de 45) Tj ET
+endstream
+endobj
+115 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [113 0 R 114 0 R] >>
+endobj
+116 0 obj
+<< /Length 2460 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/features/hand/hand.component.ts) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  import { CommonModule } from '@angular/common';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2  import { Component } from '@angular/core';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3  import { PokemonCard } from '../../core/models/pokemon-card.model';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4  import { GameService } from '../../core/services/game.service';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5  import { HandLayoutService } from '../../core/services/hand-layout.service';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6  import { CardComponent } from '../card/card.component';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8  @Component\({) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9    selector: 'app-hand',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10    imports: [CommonModule, CardComponent],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11    templateUrl: './hand.component.html',) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12    styleUrl: './hand.component.scss') Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13  }\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14  export class HandComponent {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15    constructor\() Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16      readonly game: GameService,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (17      readonly layout: HandLayoutService) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (18    \) {}) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (19  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (20    play\(card: PokemonCard, event: MouseEvent\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (21      this.game.setActivePokemon\(card, { x: event.clientX, y: event.clientY }\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (22    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (23  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (24    cardTransform\(index: number\): string {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (25      return this.layout.toCssTransform\(index, this.game.hand\(\).length\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (26    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm (27  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm (28    cardZIndex\(index: number\): number {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm (29      return this.layout.getTransform\(index, this.game.hand\(\).length\).zIndex;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm (30    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm (31  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm (32  ) Tj
+ET
+endstream
+endobj
+117 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 38 de 45) Tj ET
+endstream
+endobj
+118 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [116 0 R 117 0 R] >>
+endobj
+119 0 obj
+<< /Length 2823 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/app/shared/directives/tilt.directive.ts) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  import { Directive, ElementRef, HostListener, Input, Renderer2 } from '@angular/core';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3  @Directive\({) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4    selector: '[appTilt]') Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5  }\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6  export class TiltDirective {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7    @Input\(\) strength = 12;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9    constructor\() Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10      private readonly el: ElementRef<HTMLElement>,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11      private readonly renderer: Renderer2) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12    \) {}) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (14    @HostListener\('mousemove', ['$event']\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (15    onMouseMove\(event: MouseEvent\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (16      const element = this.el.nativeElement;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (17      const rect = element.getBoundingClientRect\(\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (18      const x = event.clientX - rect.left;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (19      const y = event.clientY - rect.top;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (20      const rotateX = \(\(y - rect.height / 2\) / \(rect.height / 2\)\) * -this.strength;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (21      const rotateY = \(\(x - rect.width / 2\) / \(rect.width / 2\)\) * this.strength;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (22  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (23      this.renderer.setStyle\(element, '--mouse-x', `${\(x / rect.width\) * 100}%`\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (24      this.renderer.setStyle\(element, '--mouse-y', `${\(y / rect.height\) * 100}%`\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (25      this.renderer.setStyle\(element, 'transform', `perspective\(900px\) rotateX\(${rotateX}deg\) ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (    rotateY\(${rotateY}deg\) translateZ\(14px\)`\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm (26    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm (27  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm (28    @HostListener\('mouseleave'\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm (29    onMouseLeave\(\): void {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm (30      this.renderer.setStyle\(this.el.nativeElement, 'transform', 'perspective\(900px\) rotateX\(0deg\) ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm (    rotateY\(0deg\) translateZ\(0\)'\);) Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm (31    }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.80 Tm (32  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.40 Tm (33  ) Tj
+ET
+endstream
+endobj
+120 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 39 de 45) Tj ET
+endstream
+endobj
+121 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [119 0 R 120 0 R] >>
+endobj
+122 0 obj
+<< /Length 911 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/index.html) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  <!doctype html>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2  <html lang="en">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3  <head>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4    <meta charset="utf-8">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5    <title>PokemonPocketAngular</title>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6    <base href="/">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7    <meta name="viewport" content="width=device-width, initial-scale=1">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8    <link rel="icon" type="image/x-icon" href="favicon.ico">) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9  </head>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10  <body>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11    <app-root></app-root>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12  </body>) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13  </html>) Tj
+ET
+endstream
+endobj
+123 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 40 de 45) Tj ET
+endstream
+endobj
+124 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [122 0 R 123 0 R] >>
+endobj
+125 0 obj
+<< /Length 532 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/main.ts) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm (1  import { bootstrapApplication } from '@angular/platform-browser';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm (2  import { appConfig } from './app/app.config';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm (3  import { App } from './app/app';) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm (4  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm (5  bootstrapApplication\(App, appConfig\)) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm (6    .catch\(\(err\) => console.error\(err\)\);) Tj
+ET
+endstream
+endobj
+126 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 41 de 45) Tj ET
+endstream
+endobj
+127 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [125 0 R 126 0 R] >>
+endobj
+128 0 obj
+<< /Length 1260 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (src/styles.scss) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  * {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm ( 2    box-sizing: border-box;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 3  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm ( 4  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 5  html,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 6  body {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 7    margin: 0;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 8    min-height: 100%;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 9  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm (10  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm (11  body {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (12    background: #101218;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (13    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (    serif;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (14  }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (15  ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (16  button,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (17  input,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (18  textarea,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (19  select {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (20    font: inherit;) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (21  }) Tj
+ET
+endstream
+endobj
+129 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 42 de 45) Tj ET
+endstream
+endobj
+130 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [128 0 R 129 0 R] >>
+endobj
+131 0 obj
+<< /Length 1207 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (tsconfig.app.json) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  /* To learn more about Typescript configuration file: ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm (    https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 2  /* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm (    compiler-options. */) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 3  {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 4    "extends": "./tsconfig.json",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 5    "compilerOptions": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 6      "outDir": "./out-tsc/app",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 7      "types": []) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm ( 8    },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm ( 9    "include": [) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (10      "src/**/*.ts") Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (11    ],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (12    "exclude": [) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (13      "src/**/*.spec.ts") Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (14    ]) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (15  }) Tj
+ET
+endstream
+endobj
+132 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 43 de 45) Tj ET
+endstream
+endobj
+133 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [131 0 R 132 0 R] >>
+endobj
+134 0 obj
+<< /Length 2487 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (tsconfig.json) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  /* To learn more about Typescript configuration file: ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm (    https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 2  /* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm (    compiler-options. */) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 3  {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 4    "compileOnSave": false,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 5    "compilerOptions": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 6      "strict": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 7      "noImplicitOverride": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm ( 8      "noPropertyAccessFromIndexSignature": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm ( 9      "noImplicitReturns": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (10      "noFallthroughCasesInSwitch": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (11      "skipLibCheck": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (12      "isolatedModules": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (13      "experimentalDecorators": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (14      "importHelpers": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (15      "target": "ES2022",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 554.20 Tm (16      "module": "preserve") Tj
+/F2 8 Tf
+1 0 0 1 42.00 544.80 Tm (17    },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 535.40 Tm (18    "angularCompilerOptions": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 526.00 Tm (19      "enableI18nLegacyMessageIdFormat": false,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 516.60 Tm (20      "strictInjectionParameters": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 507.20 Tm (21      "strictInputAccessModifiers": true,) Tj
+/F2 8 Tf
+1 0 0 1 42.00 497.80 Tm (22      "strictTemplates": true) Tj
+/F2 8 Tf
+1 0 0 1 42.00 488.40 Tm (23    },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 479.00 Tm (24    "files": [],) Tj
+/F2 8 Tf
+1 0 0 1 42.00 469.60 Tm (25    "references": [) Tj
+/F2 8 Tf
+1 0 0 1 42.00 460.20 Tm (26      {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 450.80 Tm (27        "path": "./tsconfig.app.json") Tj
+/F2 8 Tf
+1 0 0 1 42.00 441.40 Tm (28      },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 432.00 Tm (29      {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 422.60 Tm (30        "path": "./tsconfig.spec.json") Tj
+/F2 8 Tf
+1 0 0 1 42.00 413.20 Tm (31      }) Tj
+/F2 8 Tf
+1 0 0 1 42.00 403.80 Tm (32    ]) Tj
+/F2 8 Tf
+1 0 0 1 42.00 394.40 Tm (33  }) Tj
+ET
+endstream
+endobj
+135 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 44 de 45) Tj ET
+endstream
+endobj
+136 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [134 0 R 135 0 R] >>
+endobj
+137 0 obj
+<< /Length 1220 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 42.00 742.00 Tm (tsconfig.spec.json) Tj
+/F2 8 Tf
+1 0 0 1 42.00 714.00 Tm ( 1  /* To learn more about Typescript configuration file: ) Tj
+/F2 8 Tf
+1 0 0 1 42.00 704.60 Tm (    https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */) Tj
+/F2 8 Tf
+1 0 0 1 42.00 695.20 Tm ( 2  /* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-) Tj
+/F2 8 Tf
+1 0 0 1 42.00 685.80 Tm (    compiler-options. */) Tj
+/F2 8 Tf
+1 0 0 1 42.00 676.40 Tm ( 3  {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 667.00 Tm ( 4    "extends": "./tsconfig.json",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 657.60 Tm ( 5    "compilerOptions": {) Tj
+/F2 8 Tf
+1 0 0 1 42.00 648.20 Tm ( 6      "outDir": "./out-tsc/spec",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 638.80 Tm ( 7      "types": [) Tj
+/F2 8 Tf
+1 0 0 1 42.00 629.40 Tm ( 8        "vitest/globals") Tj
+/F2 8 Tf
+1 0 0 1 42.00 620.00 Tm ( 9      ]) Tj
+/F2 8 Tf
+1 0 0 1 42.00 610.60 Tm (10    },) Tj
+/F2 8 Tf
+1 0 0 1 42.00 601.20 Tm (11    "include": [) Tj
+/F2 8 Tf
+1 0 0 1 42.00 591.80 Tm (12      "src/**/*.d.ts",) Tj
+/F2 8 Tf
+1 0 0 1 42.00 582.40 Tm (13      "src/**/*.spec.ts") Tj
+/F2 8 Tf
+1 0 0 1 42.00 573.00 Tm (14    ]) Tj
+/F2 8 Tf
+1 0 0 1 42.00 563.60 Tm (15  }) Tj
+ET
+endstream
+endobj
+138 0 obj
+<< /Length 52 >>
+stream
+BT /F1 8 Tf 1 0 0 1 42 24 Tm (Pagina 45 de 45) Tj ET
+endstream
+endobj
+139 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents [137 0 R 138 0 R] >>
+endobj
+xref
+0 140
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000444 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000003555 00000 n 
+0000003656 00000 n 
+0000003800 00000 n 
+0000004213 00000 n 
+0000004314 00000 n 
+0000004459 00000 n 
+0000005886 00000 n 
+0000005988 00000 n 
+0000006135 00000 n 
+0000006796 00000 n 
+0000006898 00000 n 
+0000007045 00000 n 
+0000009907 00000 n 
+0000010009 00000 n 
+0000010156 00000 n 
+0000014440 00000 n 
+0000014542 00000 n 
+0000014689 00000 n 
+0000019820 00000 n 
+0000019922 00000 n 
+0000020069 00000 n 
+0000020456 00000 n 
+0000020558 00000 n 
+0000020705 00000 n 
+0000023025 00000 n 
+0000023127 00000 n 
+0000023274 00000 n 
+0000025921 00000 n 
+0000026024 00000 n 
+0000026171 00000 n 
+0000026822 00000 n 
+0000026925 00000 n 
+0000027072 00000 n 
+0000027321 00000 n 
+0000027424 00000 n 
+0000027571 00000 n 
+0000027898 00000 n 
+0000028001 00000 n 
+0000028148 00000 n 
+0000029997 00000 n 
+0000030100 00000 n 
+0000030247 00000 n 
+0000031169 00000 n 
+0000031272 00000 n 
+0000031419 00000 n 
+0000032148 00000 n 
+0000032251 00000 n 
+0000032398 00000 n 
+0000034750 00000 n 
+0000034853 00000 n 
+0000035000 00000 n 
+0000039938 00000 n 
+0000040041 00000 n 
+0000040188 00000 n 
+0000045416 00000 n 
+0000045519 00000 n 
+0000045666 00000 n 
+0000048395 00000 n 
+0000048498 00000 n 
+0000048645 00000 n 
+0000050666 00000 n 
+0000050769 00000 n 
+0000050916 00000 n 
+0000055937 00000 n 
+0000056040 00000 n 
+0000056187 00000 n 
+0000058969 00000 n 
+0000059072 00000 n 
+0000059219 00000 n 
+0000060452 00000 n 
+0000060555 00000 n 
+0000060702 00000 n 
+0000063254 00000 n 
+0000063357 00000 n 
+0000063504 00000 n 
+0000068622 00000 n 
+0000068725 00000 n 
+0000068872 00000 n 
+0000073795 00000 n 
+0000073898 00000 n 
+0000074045 00000 n 
+0000074997 00000 n 
+0000075100 00000 n 
+0000075247 00000 n 
+0000077538 00000 n 
+0000077641 00000 n 
+0000077788 00000 n 
+0000078080 00000 n 
+0000078183 00000 n 
+0000078330 00000 n 
+0000080002 00000 n 
+0000080105 00000 n 
+0000080252 00000 n 
+0000085812 00000 n 
+0000085915 00000 n 
+0000086063 00000 n 
+0000091842 00000 n 
+0000091946 00000 n 
+0000092096 00000 n 
+0000092928 00000 n 
+0000093032 00000 n 
+0000093182 00000 n 
+0000094888 00000 n 
+0000094992 00000 n 
+0000095142 00000 n 
+0000099775 00000 n 
+0000099879 00000 n 
+0000100029 00000 n 
+0000100584 00000 n 
+0000100688 00000 n 
+0000100838 00000 n 
+0000103352 00000 n 
+0000103456 00000 n 
+0000103606 00000 n 
+0000106483 00000 n 
+0000106587 00000 n 
+0000106737 00000 n 
+0000107701 00000 n 
+0000107805 00000 n 
+0000107955 00000 n 
+0000108540 00000 n 
+0000108644 00000 n 
+0000108794 00000 n 
+0000110108 00000 n 
+0000110212 00000 n 
+0000110362 00000 n 
+0000111623 00000 n 
+0000111727 00000 n 
+0000111877 00000 n 
+0000114418 00000 n 
+0000114522 00000 n 
+0000114672 00000 n 
+0000115946 00000 n 
+0000116050 00000 n 
+trailer
+<< /Size 140 /Root 1 0 R >>
+startxref
+116200
+%%EOF

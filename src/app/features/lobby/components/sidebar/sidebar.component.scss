@@ -1,0 +1,151 @@
+.sidebar {
+  background: #0f172a;
+  border: 1px solid rgb(15 23 42 / 0.8);
+  border-radius: 28px;
+  bottom: 1rem;
+  box-shadow: 0 8px 20px -6px rgb(0 0 0 / 0.08);
+  display: flex;
+  flex-direction: column;
+  left: 1rem;
+  padding: 1.25rem;
+  position: fixed;
+  top: 1rem;
+  width: 17rem;
+  z-index: 20;
+}
+
+.logo,
+.user-info {
+  align-items: center;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.logo {
+  background: rgb(30 41 59 / 0.52);
+  border: 1px solid rgb(51 65 85 / 0.3);
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem;
+}
+
+.pokeball {
+  background: linear-gradient(#ef4444 0 48%, #f8fafc 48% 52%, #f8fafc 52% 100%);
+  border: 3px solid #0f172a;
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+h2 {
+  color: #cbd5e1;
+  font-size: 0.82rem;
+  font-weight: 950;
+  letter-spacing: 0.06em;
+  line-height: 1.15;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.nav-menu {
+  display: grid;
+  flex: 1;
+  gap: 0.8rem;
+  align-content: start;
+}
+
+button {
+  border: 0;
+  border-radius: 24px;
+  cursor: pointer;
+  font-weight: 900;
+  padding: 0.9rem 1rem;
+  transition: filter 160ms ease, transform 160ms ease, background 160ms ease;
+}
+
+.primary {
+  background: linear-gradient(180deg, #facc15, #f59e0b);
+  border-bottom: 4px solid #d97706;
+  box-shadow: 0 8px 20px -12px rgb(0 0 0 / 0.3);
+  color: white;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.nav-menu button:not(.primary) {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #cbd5e1;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.nav-menu button:hover {
+  transform: translateY(-2px);
+}
+
+.user-info {
+  background: rgb(30 41 59 / 0.82);
+  border: 1px solid rgb(51 65 85 / 0.5);
+  border-radius: 24px;
+  color: white;
+  padding: 0.75rem;
+}
+
+.avatar {
+  align-items: center;
+  background: linear-gradient(45deg, #6366f1, #a855f7);
+  border: 2px solid rgb(255 255 255 / 0.2);
+  border-radius: 50%;
+  display: flex;
+  font-weight: 950;
+  height: 2.5rem;
+  justify-content: center;
+  width: 2.5rem;
+}
+
+.user-info span {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.logout {
+  background: rgb(244 63 94 / 0.1);
+  border-radius: 12px;
+  color: #fb7185;
+  padding: 0.4rem 0.55rem;
+}
+
+@media (max-width: 980px) {
+  .sidebar {
+    align-items: center;
+    bottom: auto;
+    flex-direction: row;
+    gap: 0.75rem;
+    left: 0.75rem;
+    right: 0.75rem;
+    top: 0.75rem;
+    width: auto;
+  }
+
+  .logo,
+  .user-info {
+    margin: 0;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex: 1;
+    gap: 0.5rem;
+    overflow-x: auto;
+  }
+
+  .nav-menu button {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+}

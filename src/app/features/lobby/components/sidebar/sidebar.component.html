@@ -1,0 +1,19 @@
+<aside class="sidebar">
+  <div class="logo">
+    <span class="pokeball"></span>
+    <h2>Pokemon TCG Arena</h2>
+  </div>
+
+  <nav class="nav-menu">
+    <button type="button" class="primary" (click)="createGame.emit()">Crear Partida</button>
+    <button type="button" class="primary" (click)="joinGame.emit()">Unirse a Partida</button>
+    <button type="button" class="primary" (click)="playSolo.emit()">🎮 Jugar solo (Prueba)</button>
+    <button type="button" (click)="showHistory.emit()">Historial</button>
+  </nav>
+
+  <div class="user-info">
+    <div class="avatar">{{ auth.getUsername()?.charAt(0) || 'U' }}</div>
+    <span>{{ auth.getUsername() || 'Usuario' }}</span>
+    <button type="button" class="logout" (click)="logout()">Salir</button>
+  </div>
+</aside>

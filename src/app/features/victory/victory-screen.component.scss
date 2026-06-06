@@ -1,0 +1,592 @@
+:host {
+  inset: 0;
+  pointer-events: all;
+  position: fixed;
+  z-index: 600;
+}
+
+.victory-root {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.victory-overlay {
+  backdrop-filter: blur(8px) saturate(1.2);
+  background: rgb(0 0 0 / 0.72);
+  inset: 0;
+  position: absolute;
+}
+
+.particles-canvas {
+  height: 100%;
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.type-emblem {
+  filter: blur(1px);
+  font-family: var(--font-display, 'Chakra Petch', monospace);
+  font-size: clamp(6rem, 20vw, 11rem);
+  font-weight: 950;
+  left: 50%;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -54%);
+  user-select: none;
+  z-index: 2;
+}
+
+.type-emblem[data-type='fire'] { filter: blur(1px) drop-shadow(0 0 30px rgb(255 100 0 / 0.5)); }
+.type-emblem[data-type='water'] { filter: blur(1px) drop-shadow(0 0 30px rgb(56 189 248 / 0.5)); }
+.type-emblem[data-type='grass'] { filter: blur(1px) drop-shadow(0 0 30px rgb(74 222 128 / 0.5)); }
+.type-emblem[data-type='electric'],
+.type-emblem[data-type='lightning'] { filter: blur(1px) drop-shadow(0 0 30px rgb(251 191 36 / 0.5)); }
+.type-emblem[data-type='psychic'] { filter: blur(1px) drop-shadow(0 0 30px rgb(232 121 249 / 0.5)); }
+
+.levelup-banner {
+  background: linear-gradient(135deg, #7c3aed, #a855f7);
+  border-radius: 4px;
+  box-shadow: 0 0 50px rgb(124 58 237 / 0.7), 0 4px 20px rgb(0 0 0 / 0.5);
+  color: white;
+  font-family: var(--font-display, 'Chakra Petch', monospace);
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  font-weight: 950;
+  left: 50%;
+  letter-spacing: 0.18em;
+  padding: 0.85rem 3rem;
+  pointer-events: none;
+  position: absolute;
+  text-transform: uppercase;
+  top: 28%;
+  transform-origin: center;
+  white-space: nowrap;
+  z-index: 60;
+}
+
+.victory-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+  max-width: 45rem;
+  padding: 2rem;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.victory-title-wrap {
+  display: inline-block;
+  position: relative;
+}
+
+.victory-hex-frame {
+  animation: hexGlow 2.5s ease-in-out infinite;
+  background: rgb(245 183 0 / 0.06);
+  border: 2px solid rgb(245 183 0 / 0.55);
+  clip-path: polygon(8% 0%, 92% 0%, 100% 50%, 92% 100%, 8% 100%, 0% 50%);
+  inset: -0.9rem -1.5rem;
+  position: absolute;
+}
+
+.title-shadow {
+  color: rgb(80 20 0 / 0.7);
+  font-family: var(--font-display, 'Chakra Petch', monospace);
+  font-size: clamp(2.25rem, 7vw, 3.75rem);
+  font-weight: 950;
+  inset: 0;
+  letter-spacing: 0.1em;
+  padding: 0.5rem 1.75rem;
+  pointer-events: none;
+  position: absolute;
+  text-transform: uppercase;
+  transform: translate(4px, 5px);
+}
+
+.victory-title {
+  background: linear-gradient(180deg, #fff8dc 0%, #ffd700 25%, #ffb800 50%, #ff8c00 75%, #cc6600 100%);
+  background-clip: text;
+  color: transparent;
+  display: block;
+  font-family: var(--font-display, 'Chakra Petch', monospace);
+  font-size: clamp(2.25rem, 7vw, 3.75rem);
+  font-weight: 950;
+  letter-spacing: 0.1em;
+  padding: 0.5rem 1.75rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.victory-subtitle {
+  color: rgb(255 200 80 / 0.7);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  margin: -0.65rem 0 0;
+  text-transform: uppercase;
+}
+
+.center-row {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.section-label {
+  color: rgb(255 255 255 / 0.35);
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  margin-top: 0.6rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.winning-card {
+  background: linear-gradient(145deg, #fff9e6, #fff0c0);
+  border: 3px solid rgb(255 183 0 / 0.65);
+  border-radius: 16px;
+  box-shadow: 0 0 50px rgb(255 183 0 / 0.5), 0 0 100px rgb(255 80 0 / 0.2), 0 24px 48px rgb(0 0 0 / 0.65);
+  cursor: pointer;
+  height: 196px;
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: box-shadow 0.3s ease;
+  width: 140px;
+}
+
+.winning-card:hover {
+  box-shadow: 0 0 70px rgb(255 183 0 / 0.7), 0 0 120px rgb(255 80 0 / 0.3), 0 28px 56px rgb(0 0 0 / 0.7);
+}
+
+.card-image-area {
+  height: 62%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.card-img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  width: 100%;
+}
+
+.card-image-overlay {
+  background: linear-gradient(to bottom, transparent 70%, rgb(255 240 200 / 0.4));
+  inset: 0;
+  position: absolute;
+}
+
+.card-info-area {
+  background: rgb(255 255 255 / 0.95);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  height: 38%;
+  justify-content: center;
+  padding: 8px 10px;
+}
+
+.card-name {
+  color: #1a0a00;
+  font-family: var(--font-display, 'Chakra Petch', monospace);
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+.card-hp-text {
+  color: #cc2200;
+  font-size: 0.64rem;
+  font-weight: 800;
+}
+
+.type-badge {
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 0.55rem;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  padding: 1px 7px;
+  width: fit-content;
+}
+
+.type-badge[data-type='fire'] { background: #ff6b00; color: white; }
+.type-badge[data-type='water'] { background: #38bdf8; color: #003a5e; }
+.type-badge[data-type='grass'] { background: #16a34a; color: white; }
+.type-badge[data-type='electric'],
+.type-badge[data-type='lightning'] { background: #eab308; color: #3a2000; }
+.type-badge[data-type='psychic'] { background: #e879f9; color: #3a0050; }
+
+.ex-badge {
+  background: linear-gradient(135deg, #ffd700, #ff8c00);
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgb(255 183 0 / 0.7);
+  color: white;
+  font-family: var(--font-display, 'Chakra Petch', monospace);
+  font-size: 0.56rem;
+  font-weight: 950;
+  padding: 1px 6px;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+
+.card-foil-overlay {
+  animation: foilIdle 4s ease-in-out infinite;
+  background: radial-gradient(
+    ellipse at calc(var(--mx, 50) * 1%) calc(var(--my, 50) * 1%),
+    rgb(255 255 255 / 0.45) 0%,
+    rgb(255 200 100 / 0.25) 25%,
+    rgb(100 200 255 / 0.2) 50%,
+    rgb(200 100 255 / 0.15) 70%,
+    transparent 80%
+  );
+  border-radius: 13px;
+  inset: 0;
+  mix-blend-mode: screen;
+  opacity: 0.6;
+  pointer-events: none;
+  position: absolute;
+}
+
+.card-foil-overlay::after {
+  background: repeating-linear-gradient(0deg, transparent, transparent 3px, rgb(255 255 255 / 0.03) 3px, rgb(255 255 255 / 0.03) 4px);
+  border-radius: inherit;
+  content: '';
+  inset: 0;
+  position: absolute;
+}
+
+.stats-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 1.25rem;
+}
+
+.stat-pill {
+  align-items: center;
+  background: rgb(255 255 255 / 0.06);
+  border: 1px solid rgb(255 255 255 / 0.1);
+  border-radius: 999px;
+  display: flex;
+  gap: 0.75rem;
+  min-width: 7.5rem;
+  padding: 0.5rem 1.25rem;
+}
+
+.stat-val {
+  color: rgb(255 255 255 / 0.92);
+  font-family: var(--font-display, 'Chakra Petch', monospace);
+  font-size: 1.25rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 950;
+  min-width: 2.25rem;
+  text-align: right;
+}
+
+.stat-key {
+  color: rgb(255 255 255 / 0.4);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.reward-pack {
+  border-radius: 10px;
+  cursor: pointer;
+  height: 112px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.2s ease;
+  width: 80px;
+}
+
+.reward-pack:hover {
+  transform: scale(1.08) rotate(-4deg);
+}
+
+.reward-pack[data-rarity='gold'] {
+  background: linear-gradient(145deg, #2a1a00, #5a3200, #8a4800);
+  border: 2px solid rgb(255 183 0 / 0.75);
+  box-shadow: 0 0 30px rgb(255 183 0 / 0.45), 0 10px 24px rgb(0 0 0 / 0.5);
+}
+
+.reward-pack[data-rarity='silver'] {
+  background: linear-gradient(145deg, #1a1a2a, #2a2a3a, #3a3a4a);
+  border: 2px solid rgb(180 180 220 / 0.6);
+  box-shadow: 0 0 25px rgb(180 180 220 / 0.3), 0 10px 24px rgb(0 0 0 / 0.5);
+}
+
+.reward-pack[data-rarity='standard'] {
+  background: linear-gradient(145deg, #0f1a2a, #1a2a3a, #1e3a5f);
+  border: 2px solid rgb(56 189 248 / 0.5);
+  box-shadow: 0 0 20px rgb(56 189 248 / 0.3), 0 10px 24px rgb(0 0 0 / 0.5);
+}
+
+.pack-glow {
+  animation: packGlow 2.5s ease-in-out infinite;
+  background: linear-gradient(145deg, rgb(255 220 100 / 0.15), transparent 60%, rgb(255 100 0 / 0.08));
+  border-radius: 8px;
+  inset: 0;
+  position: absolute;
+}
+
+.pack-artwork {
+  border: 3px solid rgb(255 255 255 / 0.5);
+  border-radius: 50%;
+  height: 2.6rem;
+  left: 50%;
+  position: absolute;
+  top: 42%;
+  transform: translate(-50%, -50%);
+  width: 2.6rem;
+}
+
+.pack-artwork::before {
+  background: rgb(255 255 255 / 0.5);
+  content: '';
+  height: 3px;
+  left: -0.4rem;
+  position: absolute;
+  right: -0.4rem;
+  top: 50%;
+}
+
+.pack-label {
+  bottom: 7px;
+  color: rgb(255 183 0 / 0.85);
+  font-family: var(--font-display, 'Chakra Petch', monospace);
+  font-size: 0.56rem;
+  font-weight: 950;
+  left: 0;
+  letter-spacing: 0.12em;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.xp-section {
+  max-width: 28.75rem;
+  width: 80%;
+}
+
+.xp-header,
+.xp-level-labels {
+  align-items: center;
+  display: flex;
+}
+
+.xp-header {
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.xp-label {
+  color: rgb(255 255 255 / 0.45);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.xp-gain-number {
+  color: #ffd700;
+  font-family: var(--font-display, 'Chakra Petch', monospace);
+  font-size: 0.82rem;
+  font-weight: 950;
+}
+
+.xp-track {
+  background: rgb(255 255 255 / 0.07);
+  border: 1px solid rgb(255 255 255 / 0.1);
+  border-radius: 999px;
+  height: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.xp-fill-prev,
+.xp-fill-new {
+  bottom: 0;
+  position: absolute;
+  top: 0;
+}
+
+.xp-fill-prev {
+  background: linear-gradient(90deg, #15803d, #22c55e);
+  border-radius: 999px;
+  left: 0;
+}
+
+.xp-fill-new {
+  background: linear-gradient(90deg, #ffd700, #ff8c00);
+  border-radius: 0 999px 999px 0;
+  overflow: hidden;
+}
+
+.xp-shimmer {
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.5), transparent);
+  inset: 0;
+  position: absolute;
+  transform: translateX(-100%);
+}
+
+.xp-level-labels {
+  gap: 0.38rem;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.level-text {
+  color: rgb(255 255 255 / 0.35);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.level-num {
+  color: rgb(255 183 0 / 0.9);
+  font-family: var(--font-display, 'Chakra Petch', monospace);
+  font-size: 0.95rem;
+  font-weight: 950;
+}
+
+.level-new {
+  color: #a855f7;
+}
+
+.level-arrow {
+  color: rgb(255 255 255 / 0.3);
+  font-size: 0.82rem;
+}
+
+.action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.btn-rematch,
+.btn-menu {
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: var(--font-display, 'Chakra Petch', monospace);
+  font-size: 0.82rem;
+  font-weight: 950;
+  letter-spacing: 0.1em;
+  padding: 0.85rem 2rem;
+  text-transform: uppercase;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.btn-rematch {
+  background: linear-gradient(135deg, #f5b700, #ff6b00);
+  border: 0;
+  box-shadow: 0 4px 24px rgb(245 183 0 / 0.5);
+  color: #1a0a00;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-rematch::before {
+  animation: btnShimmer 2.8s ease-in-out infinite;
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.3), transparent);
+  content: '';
+  inset: 0;
+  position: absolute;
+  transform: translateX(-200%);
+}
+
+.btn-rematch:hover {
+  box-shadow: 0 8px 36px rgb(245 183 0 / 0.7);
+  transform: translateY(-2px) scale(1.04);
+}
+
+.btn-menu {
+  backdrop-filter: blur(8px);
+  background: rgb(15 23 42 / 0.8);
+  border: 1px solid rgb(255 255 255 / 0.15);
+  color: rgb(255 255 255 / 0.85);
+}
+
+.btn-menu:hover {
+  background: rgb(30 41 59 / 0.9);
+  transform: translateY(-1px);
+}
+
+@keyframes hexGlow {
+  0%, 100% { border-color: rgb(245 183 0 / 0.55); box-shadow: inset 0 0 20px rgb(245 183 0 / 0.1); }
+  50% { border-color: rgb(245 183 0 / 0.95); box-shadow: inset 0 0 50px rgb(245 183 0 / 0.25); }
+}
+
+@keyframes foilIdle {
+  0%, 100% { --mx: 30; --my: 30; opacity: 0.5; }
+  33% { --mx: 70; --my: 60; opacity: 0.8; }
+  66% { --mx: 40; --my: 70; opacity: 0.6; }
+}
+
+@keyframes packGlow {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+@keyframes btnShimmer {
+  0% { transform: translateX(-200%); }
+  60%, 100% { transform: translateX(200%); }
+}
+
+@media (max-width: 640px) {
+  .center-row {
+    gap: 1.1rem;
+  }
+
+  .victory-title {
+    font-size: 2rem;
+    padding: 0.38rem 1.1rem;
+  }
+
+  .winning-card {
+    height: 154px;
+    width: 110px;
+  }
+
+  .stats-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 0;
+  }
+
+  .xp-section {
+    width: 92%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .victory-hex-frame,
+  .card-foil-overlay,
+  .pack-glow,
+  .btn-rematch::before {
+    animation: none;
+  }
+}

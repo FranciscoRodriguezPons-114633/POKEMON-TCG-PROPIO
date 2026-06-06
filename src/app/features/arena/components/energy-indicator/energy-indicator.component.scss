@@ -1,0 +1,26 @@
+.energy-badge {
+  align-items: center;
+  animation: pulse-slow 2.4s infinite;
+  background: linear-gradient(135deg, #38bdf8, #fde047);
+  border: 1px solid rgb(255 255 255 / 0.46);
+  border-radius: 50%;
+  box-shadow: 0 0 18px rgb(56 189 248 / 0.5), inset 0 0 10px rgb(255 255 255 / 0.34);
+  color: #0f172a;
+  display: flex;
+  font-weight: 950;
+  height: 2.6rem;
+  justify-content: center;
+  width: 2.6rem;
+}
+
+@keyframes pulse-slow {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+}
+
