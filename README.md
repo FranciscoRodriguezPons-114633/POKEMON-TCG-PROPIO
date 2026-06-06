@@ -1,5 +1,7 @@
 # Pokemon TCG Arena - Angular
 
+Repositorio: POKEMON-TCG-PROPIO
+
 Juego de cartas estilo Pokemon TCG Pocket con mano en arco, cartas holograficas, efectos de combate, audio, fondo 3D y batallas por turnos.
 
 ## Tecnologias
